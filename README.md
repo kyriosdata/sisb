@@ -1,4 +1,4 @@
-### Definição
+# SISB
 SISB é um Sistema de Informação em Saúde Bucal cujos principais objetivos incluem:
 - Atender os padrões de interoperabilidade adotados pelo Brasil. 
 - Adequadamente contemplar as informações em saúde bucal, restritas ao escopo da atenção primária.
