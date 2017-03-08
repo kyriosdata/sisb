@@ -44,7 +44,7 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 #### Modelo do domínio
 Os principais conceitos utilizados pelo SISB são ilustrados abaixo.
 
-![sisb-domain](https://cloud.githubusercontent.com/assets/1735792/23719899/c6632ad0-041b-11e7-93b2-6ded3da54c05.png)
+![sisb-domain](https://cloud.githubusercontent.com/assets/1735792/23722478/436b2994-0424-11e7-872c-1fc261542468.png)
 
 ***
 
