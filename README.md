@@ -1,5 +1,5 @@
 # SISB
-SISB é um Sistema de Informação em Saúde Bucal cujos principais objetivos incluem:
+O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema de informação em saúde voltado para atender necessidades da saúde bucal.Os principais objetivos incluem:
 - Atender os padrões de interoperabilidade adotados pelo Brasil. 
 - Contemplar as informações em saúde bucal no escopo da atenção primária.
 - Assegurar que as funções sejam adequadas para "amplo" uso em clínicas, hospitais e outros, possivelmente em todo o território nacional.
