@@ -10,8 +10,19 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 
 O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
 
+***
+
 ### Contexto de operação (ConOps)
 Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para fornecer evidências dos serviços oferecidos pelo SISB para satisfazer os objetivos identificados acima.
+
+#### Contexto do sistema
+
+![sisb-context](https://cloud.githubusercontent.com/assets/1735792/23717130/617f2376-0411-11e7-95de-35b33e00bc21.png)
+
+#### Casos de uso
+
+
+***
 
 ### Requisitos
 - Suporte para múltiplos idiomas.
