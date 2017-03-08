@@ -21,6 +21,7 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 
 #### Casos de uso
 
+![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23717701/a69a7292-0413-11e7-903b-65651bcd5962.png)
 
 ***
 
