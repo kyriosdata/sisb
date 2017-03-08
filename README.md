@@ -31,6 +31,16 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 
 ![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23718572/c02b3356-0416-11e7-8617-99558f063784.png)
 
+| Caso de Uso    |   Descrição  |
+|--------------|----------------|
+|Acrescentar informações| Permite acrescentar informações ao prontuário de um paciente.|
+|Consultar informações|Permite consulta às informações contidas em um prontuário de um dado paciente.|
+|Localizar paciente| Permite busca por paciente (apenas dados demográficos)|
+|Trocar informações| Permite o envio para e o recebimento de informações em saúde contida em sistema externo ao SISB. Em ambos os casos a operação não permite ao usuário o acesso às informações propriamente ditas, mas apenas àquelas pertinentes à transação (transferência).|
+|Cadastrar paciente| Dados demográficos de pacientes já cadastrados podem ser confirmados e, se necessário, atualizados, bem como um novo cadastro criado. Permite a recuperação de informações via CNS.|
+|Monitorar SISB|Permite acompanhar a operação (funcionamento do SISB).|
+|Gerenciar usuários|Permite a gestão do cadastro de usuários do SISB, o que inclui recursos para habilitar/desabilitar usuário, alteração de senha e outras questões pertinentes.|
+
 ***
 
 ### Requisitos
