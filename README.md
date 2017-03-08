@@ -4,9 +4,9 @@ O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema d
 ### Contexto (objetivos do negócio)
 Os principais objetivos dos interessados (_stakeholders_) incluem:
 - Fortalecer a reputação do Estado de Goiás na produção de solução de qualidade para a área da saúde.
-- Fortalecer a UFG como produtora de ações relevantes na saúde.
+- Posicionar a UFG como parceira relevante para ações na saúde.
 - Atender os padrões de interoperabilidade adotados pelo Brasil. 
-- Atender necessidades de informações em saúde bucal no escopo da atenção primária, por meio de software a ser utilizado em clínicas, hospitais e outros, possivelmente em várias partes do mundo.
+- Atender necessidades de informações em saúde bucal no escopo da atenção primária.
 
 O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
 
