@@ -19,6 +19,13 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 
 ![sisb-context](https://cloud.githubusercontent.com/assets/1735792/23717130/617f2376-0411-11e7-95de-35b33e00bc21.png)
 
+| Ator           |   Descrição  |
+|:--------------:|----------------|
+|        1       | Valor do tamanho |
+|        3       |        254       |
+|        5       |        255       |
+
+
 #### Casos de uso
 
 ![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23718572/c02b3356-0416-11e7-8617-99558f063784.png)
