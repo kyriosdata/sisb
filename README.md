@@ -21,9 +21,10 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 
 | Ator           |   Descrição  |
 |:--------------:|----------------|
-|        1       | Valor do tamanho |
-|        3       |        254       |
-|        5       |        255       |
+|Administrador   | Responsável pela manutenção do SISB em operação. |
+|Odontólogo      | Profissional de saúde que consulta e gera informação em saúde bucal nos prontuários dos pacientes.     |
+|Sistema externo | Sistema com o qual o SISB interage, tanto para enviar quanto para receber informações em conformidade com os padrões adotados pelo Brasil.|
+|Barramento SUS| Conjunto de serviços oferecidos pelo Datasus (CNS, CNES, Horus, SIGTAP e eSus-AB).|
 
 
 #### Casos de uso
