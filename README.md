@@ -41,6 +41,11 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 |Monitorar SISB|Permite acompanhar a operação (funcionamento do SISB).|
 |Gerenciar usuários|Permite a gestão do cadastro de usuários do SISB, o que inclui recursos para habilitar/desabilitar usuário, alteração de senha e outras questões pertinentes.|
 
+#### Modelo do domínio
+Os principais conceitos utilizados pelo SISB são ilustrados abaixo.
+
+![sisb-domain](https://cloud.githubusercontent.com/assets/1735792/23719899/c6632ad0-041b-11e7-93b2-6ded3da54c05.png)
+
 ***
 
 ### Requisitos
