@@ -1,12 +1,19 @@
 # SISB
-O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema de informação em saúde voltado para atender necessidades da saúde bucal. Os principais objetivos incluem:
-- Assegurar a ampla disponibilidade de software de qualidade para a saúde bucal e a criação de mecanismo para a evolução.
-- Ampliar a reputação do Estado de Goiás e, em particular, da Universidade Federal de Goiás (UFG) na produção de solução de qualidade para a área da saúde.
-- Atender os padrões de interoperabilidade adotados pelo Brasil. 
-- Contemplar as informações em saúde bucal no escopo da atenção primária.
-- Assegurar que as funções sejam adequadas para "amplo" uso em clínicas, hospitais e outros, possivelmente em todo o território nacional.
+O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema de informação em saúde voltado para atender necessidades de informação no escopo da saúde bucal. 
 
-Consulte o [termo de abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) para outros detalhes.
+### Contexto (objetivos do negócio)
+Os principais objetivos dos interessados (_stakeholders_) incluem:
+- Fortalecer a reputação do Estado de Goiás na produção de solução de qualidade para a área da saúde.
+- Fortalecer a UFG como produtora de ações relevantes na saúde.
+- Atender os padrões de interoperabilidade adotados pelo Brasil. 
+- Atender necessidades de informações em saúde bucal no escopo da atenção primária, por meio de software a ser utilizado em clínicas, hospitais e outros, possivelmente em várias partes do mundo.
+
+O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
+
+### Requisitos
+- Suporte para múltiplos idiomas.
+- Possibilidade de uso local (_on-premise_) ou "nas nuvens".
+- Deve ser executado em hardware "convencional" (_commodity hardware_), que pode ser facilmente adquirido e geralmente de baixo desempenho.
 
 ### Entregáveis
 - Definição e documentação da arquitetura de software do SISB.
