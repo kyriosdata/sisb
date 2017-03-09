@@ -8,9 +8,12 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 - Atender os padrões de interoperabilidade adotados pelo Brasil. 
 - Atender necessidades de informações em saúde bucal no escopo da atenção primária.
 
-O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
-
 ***
+
+# Documentos relevantes
+
+- O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
+- Conceito de Operações ([ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md)).
 
 
 ***
