@@ -10,8 +10,9 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 
 
 ### Entregáveis
-- Definição e documentação da arquitetura de software do SISB.
-- Prova de conceito da arquitetura. Deverá haver um "equilíbrio" entre a prova de conceito e a documentação da arquitetura de software. A tendência é que uma documentação extensiva diminua ou até elimine a existência (necessidade) da prova de conceito e vice-versa. 
+Conforme o [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) estão previstos os seguintes entregáveis:
+- Documento “Informações odontológicas relevantes para a atenção primária”. Faz parte da elaboração do documento a definição de “relevante”. Esse documento deve, necessariamente, incluir arquétipos (já disponíveis) que contemplam parte das informações odontológicas relevantes e arquétipos criados para registrar as informações relevantes não contempladas pelos arquétipos disponíveis. 
+- O Sistema de Informação em Saúde Bucal, ou SISB, interoperável. Esse entregável refere-se ao software propriamente dito, apto a ser instalado e oferecer de forma satisfatória os serviços previstos.  
 
 ***
 
