@@ -51,12 +51,12 @@ Em um cenário típico, por meio da internet tem-se acesso às recursos oferecid
 
 ![sisb-operacional](https://cloud.githubusercontent.com/assets/1735792/23764690/35f2216e-04dd-11e7-99e8-735665815761.png)
 
-Há cenários mais simples do que o exposto acima, no qual o SISB é executado em um notebook, sem necessidade de acesso à internet, por exemplo.
+No cenário acima um servidor atende requisições de vários terminais simultanemente. O SISB, contudo, deve ser capaz de operar em outros cenários, por exemplo, no qual o usuário interage com um computador no qual o SISB está em execução, sem conexão com serviço remoto.
 
 #### Restrições
 
 - Fazer uso exclusivo de tecnologia "livre" de royalties. 
-- O SISB deve apresentar "baixo" custo de implantação e também "baixo" custo de manutenção. O custo deve ser monitorado e, na presença de mudança, aprovado pela patrocinadora do projeto. 
+- O SISB deve apresentar "baixo" custo de implantação e também "baixo" custo de manutenção. O custo deve ser monitorado e, na presença de mudança, aprovado pela patrocinadora do projeto. Naturalmente, o custo é uma função de várias variáveis, inclusive da quantidade de acessos concorrentes por unidade de tempo para os quais o serviço deve se manter estável. 
 
 ***
 
