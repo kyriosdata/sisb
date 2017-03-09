@@ -51,6 +51,11 @@ Em um cenário típico, por meio da internet tem-se acesso às recursos oferecid
 
 ![sisb-operacional](https://cloud.githubusercontent.com/assets/1735792/23764690/35f2216e-04dd-11e7-99e8-735665815761.png)
 
+#### Restrições
+
+- Fazer uso exclusivo de tecnologia "livre" de royalties. 
+- O SISB deve apresentar "baixo" custo de implantação e também "baixo" custo de manutenção. O custo deve ser monitorado e, na presença de mudança, aprovado pela patrocinadora do projeto. 
+
 ***
 
 ### Requisitos
