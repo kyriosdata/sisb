@@ -46,6 +46,11 @@ Os principais conceitos utilizados pelo SISB são ilustrados abaixo. De forma re
 
 ![sisb-domain](https://cloud.githubusercontent.com/assets/1735792/23722478/436b2994-0424-11e7-872c-1fc261542468.png)
 
+#### Visão operacional
+Em um cenário típico, por meio da internet tem-se acesso às recursos oferecidos pelo SISB. Esse acesso é utilizado por odontólogos, pela secretária e também pelo administrador do SISB. Dada a necessidade de manutenção das informações, há previsão de montagem de cópia de segurança, conforme ilustrado abaixo.
+
+![sisb-operacional](https://cloud.githubusercontent.com/assets/1735792/23764690/35f2216e-04dd-11e7-99e8-735665815761.png)
+
 ***
 
 ### Requisitos
