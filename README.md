@@ -19,18 +19,11 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são para os interessados em geral. A partir do terceiro a documentação é mais técnica (produzida para consumo de engenheiros de software). 
 
 - [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) - formaliza o início e considerações gerais sobre o projeto.
-- ([ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md)) - apresenta o SISB na visão externa dos usuários.
+- [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 - [Requisitos](https://github.com/kyriosdata/sisb/blob/master/Requisitos.md) - apresenta os requisitos de software a serem atendidos pelo SISB (documento dirigido para técnicos).
 
 ***
 
-### Requisitos
-- Suporte para múltiplos idiomas.
-- Possibilidade de uso local (_on-premise_) ou "nas nuvens".
-- Deve ser executado em hardware "convencional" (_commodity hardware_), que pode ser facilmente adquirido e geralmente de baixo desempenho. Noutras palavras, não exige fornecedor específico de hardware.
-- Um novo dispositivo (computador) para acesso de usuários do SISB pode ser acrescentado sem necessidade de interromper o sistema. 
-- O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
-- O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica. 
 
 ### Links relevantes
 
