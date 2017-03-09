@@ -51,6 +51,8 @@ Em um cenário típico, por meio da internet tem-se acesso às recursos oferecid
 
 ![sisb-operacional](https://cloud.githubusercontent.com/assets/1735792/23764690/35f2216e-04dd-11e7-99e8-735665815761.png)
 
+Há cenários mais simples do que o exposto acima, no qual o SISB é executado em um notebook, sem necessidade de acesso à internet, por exemplo.
+
 #### Restrições
 
 - Fazer uso exclusivo de tecnologia "livre" de royalties. 
