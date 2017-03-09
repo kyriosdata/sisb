@@ -8,13 +8,19 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 - Atender os padrões de interoperabilidade adotados pelo Brasil. 
 - Atender necessidades de informações em saúde bucal no escopo da atenção primária.
 
+
+### Entregáveis
+- Definição e documentação da arquitetura de software do SISB.
+- Prova de conceito da arquitetura. Deverá haver um "equilíbrio" entre a prova de conceito e a documentação da arquitetura de software. A tendência é que uma documentação extensiva diminua ou até elimine a existência (necessidade) da prova de conceito e vice-versa. 
+
 ***
 
-# Documentos relevantes
+## Documentos relevantes
+Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são para os interessados em geral. A partir do terceiro a documentação é mais técnica (produzida para consumo de engenheiros de software). 
 
-- O [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) inclui várias outras informações relevantes para o contexto do SISB.
-- Conceito de Operações ([ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md)).
-
+- [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) - formaliza o início e considerações gerais sobre o projeto.
+- ([ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md)) - apresenta o SISB na visão externa dos usuários.
+- [Requisitos](https://github.com/kyriosdata/sisb/blob/master/Requisitos.md) - apresenta os requisitos de software a serem atendidos pelo SISB (documento dirigido para técnicos).
 
 ***
 
@@ -25,10 +31,6 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 - Um novo dispositivo (computador) para acesso de usuários do SISB pode ser acrescentado sem necessidade de interromper o sistema. 
 - O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
 - O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica. 
-
-### Entregáveis
-- Definição e documentação da arquitetura de software do SISB.
-- Prova de conceito da arquitetura. Deverá haver um "equilíbrio" entre a prova de conceito e a documentação da arquitetura de software. A tendência é que uma documentação extensiva diminua ou até elimine a existência (necessidade) da prova de conceito e vice-versa. 
 
 ### Links relevantes
 
