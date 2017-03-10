@@ -21,4 +21,3 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 - [Requisitos](https://github.com/kyriosdata/sisb/blob/master/Requisitos.md) - apresenta os requisitos de software a serem atendidos pelo SISB (documento dirigido para técnicos).
 
-***
