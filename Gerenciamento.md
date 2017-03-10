@@ -1,4 +1,7 @@
 
+### Tarefas em andamento
+- Identificação das informações (e arquétipos)
+- Requisitos? Projeto de interação?
 
 ### Links relevantes
 
