@@ -20,3 +20,5 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) - formaliza o início e considerações gerais sobre o projeto.
 - [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 
+### Trabalhos correlatos
+- [Arquétipos](https://github.com/odonto/datamodel) para odontologia.
