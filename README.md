@@ -21,4 +21,5 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 
 ### Trabalhos correlatos
+- [Openodonto](http://openodonto.org/)
 - [Arquétipos](https://github.com/odonto/datamodel) para odontologia.
