@@ -1,6 +1,7 @@
 
 ### Requisitos de usuário
 - Seguir denominações amplamente empregadas no Brasil, quando o que está estabelecido pela ISO 13940:2015 não for considerado adequado. Veja [ContSys](https://contsys.org/) para detalhes.
+- [Openmolar](http://openmolar.com/) serve de inspiração para requisitos. 
 - Suporte para múltiplos idiomas.
 - Possibilidade de uso local (_on-premise_) ou "nas nuvens".
 - Deve ser executado em hardware "convencional" (_commodity hardware_), que pode ser facilmente adquirido e geralmente de baixo desempenho. Noutras palavras, não exige fornecedor específico de hardware.
