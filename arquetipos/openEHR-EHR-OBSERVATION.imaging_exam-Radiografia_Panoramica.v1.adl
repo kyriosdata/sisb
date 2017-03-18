@@ -1,0 +1,734 @@
+﻿archetype (adl_version=1.4)
+	openEHR-EHR-OBSERVATION.imaging_exam-radiografia_panoramica.v1
+specialize
+	openEHR-EHR-OBSERVATION.imaging_exam.v1
+
+concept
+	[at0000.1]	-- Exame de radiografia panorâmica
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["pt-br"] = <
+			language = <[ISO_639-1::pt-br]>
+			author = <
+				["organisation"] = <"Universidade Federal de Goiás (UFG)">
+				["name"] = <"Fábio Nogueira de Lucena">
+				["email"] = <"fabio@inf.ufg.br">
+			>
+			accreditation = <"Dr., engenharia de software">
+		>
+	>
+description
+	original_author = <
+		["name"] = <"Grahame Grieve">
+		["organisation"] = <"Health Intersections Pty Ltd">
+		["email"] = <"grahame@healthintersections.com.au">
+		["date"] = <"2011-02-07">
+	>
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To record the findings and interpretation of an imaging examination, or series of examinations, performed.">
+			use = <"Use to record all results related to the diagnostic imaging aspects of any imaging examinations performed. 
+
+Use to record the imaging examination components (only) of a more complex procedure, including those that may have been undertaken under imaging guidance.
+
+More complex procedures (such as echocardiaograms or Bone density scans) may be represented using templates or specialised archetypes where additional report content is appropriate.
+
+Will normally be reported back to the requesting clinician as one component within the context of an overall COMPOSITION-based report.">
+			misuse = <"Not to be used to record non-imaging examination findings or activities. For example when imaging is performed as part of a procedure the information related to the procedure must be recorded using the ACTION.procedure archetype or an OBSERVATION for the operative findings. This archetype will only be used to record the findings from the imaging.
+
+Not to be used to record details about any parallel procedure undertaken. Use the specific procedure-related archetypes, for example ACTION.procedure.
+
+Not to be used to record details about medications administered during the imaging test. Use specific medication-related archetypes, for example ACTION.medication.">
+			copyright = <"© openEHR Foundation">
+		>
+		["pt-br"] = <
+			language = <[ISO_639-1::pt-br]>
+			purpose = <"Registrar a interpretação de exame de imagem, ou série de exames realizados.">
+			use = <"Usado para registrar resultado do diagnóstico de radiografia panorâmica.
+
+Normalmente será relatado ao clínico que o requisitou como um componente no contexto de uma COMPOSITION.">
+			misuse = <"Não deve ser usado para registrar resultados que não advém de exame de imagem. Por exemplo, quando imagem é empregada como parte de procedimento, a informação relacionada ao procedimento deve ser registrada usando um arquétipo ACTION.procedimento ou uma OBSERVATION para os resultados. Este arquétipo deve ser empregado apenas para registrar os resultados obtidos de imagem.
+
+Não deve ser usado para registrar detalhes acerca de qualquer procedimento paralelo executado. Em tais casos, use os arquétipos relacionados ao procedimento.
+
+Não deve ser usado para registrar detalhes acerca de medicamentos administrados durante o teste de imagem. Use arquétipos específicos para relatar administração de medicamentos,  por exemplo, ACTION.medication.">
+			copyright = <"© Fundação openEHR">
+		>
+	>
+	lifecycle_state = <"AuthorDraft">
+	other_contributors = <"Sharmila Biswas, Australia", "Eric Browne", "David Cartwright, Queensland Health, Australia", "Stephen Chu, NEHTA, Australia (Editor)", "Matthew Cordell, NEHTA, Australia", "Andre de Wolf, NeHTA, Australia", "David Evans, Queensland Health, Australia", "Jacquie Garton-Smith, Royal Perth Hospital and DoHWA, Australia", "Grahame Grieve, Health Intersections Pyty Ltd, Australia (Editor)", "Mary Kelaher, NEHTA, Australia", "Diane Kirkham, NEHTA, Australia", "Robert L'egan, NEHTA, Australia", "Heather Leslie, Ocean Informatics, Australia (Editor)", "Mike Martyn, The Hobart Anaesthetic Group, Australia", "Ian McNicoll, Ocean Informatics UK, United Kingdom", "Chris Mitchell, RACGP, Australia", "Stewart Morrison, NEHTA, Australia", "Michael Osborne, Mater Health Services, Australia", "Ning Pan", "Chris Pearce, Melbourne East GP Network, Australia", "Jodie Pycroft, Adelaide Northern Division of General Practice Ltd, Australia", "Cathy Richardson, NEHTA, Australia", "Stephen Royce, NEHTA, Australia", "Eleanor Royle", "Don Stewart", "Michael Thompson, Queensland Health, Australia", "Gordon Tomes, Australian Institute of Health and Welfare, Australia", "Richard Townley-O'Neill, NEHTA, Australia">
+	other_details = <
+		["references"] = <"IHE.net Technical Frameworks - Radiology [Internet]. [date unknown];[cited 2011 Jan 2 ] Available from: http://www.ihe.net/Technical_Framework/index.cfm#radiology
+
+RSNA.org: Radiology Reporting [Internet]. [date unknown];[cited 2011 Jan 2 ] Available from: http://www.rsna.org/Informatics/radreports.cfm
+
+Radiology Written Report Guideline Project (Draft Consultation); December 2010.
+
+Diagnostic Imaging data specifications; NEHTA, version 1.0, 2007 Jun 29.
+
+Imaging examination result, draft archetype, NEHTA Clinical Knowledge Manager [Internet]. London: NEHTA. Authored: 11 Feb 2007. Available at: http://dcm.nehta.org.au/ckm/#showArchetype_1013.1.943_6 (accessed 16 Sep 2013).">
+		["MD5-CAM-1.0.1"] = <"957D301B011B8B45CED4B82A6F43EBF7">
+	>
+
+definition
+	OBSERVATION[at0000.1] matches {	-- Exame de radiografia panorâmica
+		data matches {
+			HISTORY[at0001] matches {	-- Série de eventos
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..1} matches {	-- Qualquer evento
+						data matches {
+							ITEM_TREE[at0003] matches {	-- *Tree(en)
+								items cardinality matches {2..*; unordered} matches {
+									ELEMENT[at0004.1] matches {	-- Radiografia panorâmica
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {[ac0.1]}		-- Radiografia panorâmica
+											}
+										}
+									}
+									ELEMENT[at0005.1] occurrences matches {0..1} matches {	-- Modalidade
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {[ac0.3]}		-- Raio X da mandíbula
+											}
+										}
+									}
+									allow_archetype CLUSTER[at0006.1] occurrences matches {0..1} matches {	-- Raio X da mandíbula
+										exclude
+											archetype_id/value matches {/.*/}
+									}
+									ELEMENT[at0007] matches {	-- Status geral do resultado
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0009, 	-- Registrado
+													at0010, 	-- Provisório
+													at0011, 	-- Final
+													at0012, 	-- Modificado
+													at0013]	-- Cancelado
+												}
+											}
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {	-- Data da emissão do resultado
+										value matches {
+											DV_DATE_TIME matches {*}
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {	-- Informação clínica disponível
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0008] occurrences matches {0..1} matches {	-- Descobertas
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									CLUSTER[at0015] occurrences matches {0..1} matches {	-- Grupo de resultados
+										items cardinality matches {1..*; unordered} matches {
+											CLUSTER[at0016] occurrences matches {0..*} matches {	-- Resultado
+												items cardinality matches {1..*; unordered} matches {
+													ELEMENT[at0017] occurrences matches {0..1} matches {*}
+													ELEMENT[at0018] occurrences matches {0..*} matches {	-- Comentário do resultado
+														value matches {
+															DV_TEXT matches {*}
+														}
+													}
+												}
+											}
+											allow_archetype CLUSTER[at0019.1] occurrences matches {0..*} matches {	-- Identificação de Dente
+												include
+													archetype_id/value matches {/openEHR-EHR-CLUSTER\.identificacao_dente_iso\.v1|openEHR-EHR-CLUSTER\.identificacao_dente_palmer\.v1|openEHR-EHR-CLUSTER\.identificacao_dente_universal\.v1/}
+											}
+										}
+									}
+									ELEMENT[at0020] occurrences matches {0..*} matches {	-- Diagnóstico radiológico
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0021] occurrences matches {0..1} matches {	-- Conclusão
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0022] occurrences matches {0..*} matches {	-- Formato do resultado do exame
+										value matches {
+											DV_MULTIMEDIA matches {
+												media_type matches {
+													[openEHR::
+													517, 
+													518, 
+													519, 
+													682, 
+													683, 
+													417, 
+													418, 
+													419]
+												}
+											}
+										}
+									}
+									ELEMENT[at0023] occurrences matches {0..1} matches {	-- Comentário
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0025] matches {	-- *Tree(en)
+				items cardinality matches {0..*; unordered} matches {
+					allow_archetype CLUSTER[at0026] occurrences matches {0..*} matches {	-- Serviço de exame de radiografia
+						include
+							archetype_id/value matches {/.*/}
+					}
+					CLUSTER[at0027] occurrences matches {0..*} matches {	-- Detalhes do requisitante do exame
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0028] occurrences matches {0..1} matches {	-- Identificador da requisição do exame
+								value matches {
+									DV_IDENTIFIER matches {*}
+								}
+							}
+							ELEMENT[at0029] occurrences matches {0..*} matches {	-- Nome do exame requerido
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+							allow_archetype CLUSTER[at0030] occurrences matches {0..*} matches {	-- Requisitante
+								include
+									archetype_id/value matches {/.*/}
+							}
+							ELEMENT[at0031] occurrences matches {0..1} matches {	-- Identificador da requisição para o serviço de exame
+								value matches {
+									DV_IDENTIFIER matches {*}
+								}
+							}
+							ELEMENT[at0032] occurrences matches {0..1} matches {	-- Identificador DICOM
+								value matches {
+									DV_URI matches {*}
+								}
+							}
+							ELEMENT[at0033] occurrences matches {0..1} matches {	-- Identificador do relatório do exame
+								value matches {
+									DV_IDENTIFIER matches {*}
+								}
+							}
+							CLUSTER[at0034] occurrences matches {0..*} matches {	-- Detalhes da imagem
+								items cardinality matches {1..*; unordered} matches {
+									ELEMENT[at0035] occurrences matches {0..1} matches {	-- Identificador da imagem
+										value matches {
+											DV_IDENTIFIER matches {*}
+										}
+									}
+									ELEMENT[at0036] occurrences matches {0..1} matches {	-- Identificador único da série de imagens
+										value matches {
+											DV_IDENTIFIER matches {*}
+										}
+									}
+									ELEMENT[at0037] occurrences matches {0..1} matches {	-- Visão
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0038] occurrences matches {0..1} matches {	-- Posição
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0039] occurrences matches {0..1} matches {	-- Data do exame
+										value matches {
+											DV_DATE_TIME matches {*}
+										}
+									}
+									ELEMENT[at0040] occurrences matches {0..1} matches {	-- Imagem
+										value matches {
+											DV_MULTIMEDIA matches {
+												media_type matches {
+													[openEHR::
+													637, 
+													425, 
+													426, 
+													427, 
+													428, 
+													429]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					allow_archetype CLUSTER[at0041] occurrences matches {0..*} matches {	-- Procedimento de exame
+						include
+							archetype_id/value matches {/.*/}
+					}
+					CLUSTER[at0042] occurrences matches {0..*} matches {	-- Detalhes de imagens comparadas
+						items cardinality matches {1..*; unordered} matches {
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0028]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Identificador da requisição do exame]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0032]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Identificador DICOM]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0035]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Identificador da imagem]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0036]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Identificador único da série de imagens]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0037]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Visão]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0038]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Posição]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0039]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Data do exame]
+							use_node ELEMENT occurrences matches {0..1} /protocol[at0025]/items[at0027]/items[at0034]/items[at0040]	-- /protocol[*Tree(en)]/items[Detalhes do requisitante do exame]/items[Detalhes da imagem]/items[Imagem]
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	terminologies_available = <"LOINC", ...>
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Imaging examination result">
+					description = <"Record the findings and interpretation of an imaging examination, or series of examinations, performed.">
+				>
+				["at0000.1"] = <
+					text = <"Mandible x-ray result">
+					description = <"Record the findings and interpretation of an mandible x-ray.">
+				>
+				["at0001"] = <
+					text = <"Event Series">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"Any event.">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Examination result name">
+					description = <"The name of the examination (to be) performed. Coding of the specific procedure with a terminology is preferred, where possible.">
+				>
+				["at0004.1"] = <
+					text = <"Examination result name">
+					description = <"Identification of the imaging examination or procedure performed, ie, LOINC 43787-1.">
+				>
+				["at0005"] = <
+					text = <"Modality">
+					description = <"The imaging method used to perform the examination e.g Ultrasound, CT, X-ray. Coding with a terminology is desirable, where possible. If the modality is specified by a code in the Examination result name, then this field is not required.">
+				>
+				["at0005.1"] = <
+					text = <"Modality">
+					description = <"X-ray">
+				>
+				["at0006"] = <
+					text = <"Anatomical site">
+					description = <"Details of the anatomical site of imaging examination, including laterality, if all individual findings and results are related to the same anatomical location. If the anatomical site is sufficiently specified with a code in the Examination test name, then this additional data is not required. Finer-grained multiple anatomical sites may be represented per ‘Result group’.">
+				>
+				["at0006.1"] = <
+					text = <"Examing site">
+					description = <"*Details of the anatomical site of imaging examination, including laterality, if all individual findings and results are related to the same anatomical location. If the anatomical site is sufficiently specified with a code in the Examination test name, then this additional data is not required. Finer-grained multiple anatomical sites may be represented per ‘Result group’.(en)">
+				>
+				["at0007"] = <
+					text = <"Overall result status">
+					description = <"The status of the examination result as a whole.">
+				>
+				["at0008"] = <
+					text = <"Findings">
+					description = <"Narrative description of findings, including comparative findings.">
+				>
+				["at0009"] = <
+					text = <"Registered">
+					description = <"No result yet available.">
+				>
+				["at0010"] = <
+					text = <"Interim">
+					description = <"This is an initial or interim result: data may be missing or verification not been performed.">
+				>
+				["at0011"] = <
+					text = <"Final">
+					description = <"The result is complete and verified by the responsible radiologist.">
+				>
+				["at0012"] = <
+					text = <"Amended">
+					description = <"The result has been modified subsequent to being Final, and is complete and verified by the radiologist.">
+				>
+				["at0013"] = <
+					text = <"Cancelled / Aborted">
+					description = <"The result is not available because the examination was not started or completed.">
+				>
+				["at0014"] = <
+					text = <"Clinical information provided">
+					description = <"Description of clinical information available at the time of interpretation of results, and which may a link to the original clinical information provided in the examination request.">
+				>
+				["at0015"] = <
+					text = <"Result group">
+					description = <"A group of structured results. Results may be grouped by anatomical location or by some other name or code to describe what binds all the results together. If a name or code is used, it is provided by run-time re-naming of the 'Result group' element or may be fixed in a specialised archetype or template. Coding with a terminology, potentially a pre-coordinated term including specimen type, is preferred where possible for the name. Should be coded with LOINC or SNOMED CT.">
+				>
+				["at0016"] = <
+					text = <"Result">
+					description = <"Specific detailed result, including both the value of the result item and additional information that may be useful for clinical interpretation. Results include whatever specific data items imaging services report as part of the clinical service; it may include measurements. These are often referred to as 'Structured Findings'. The result is identified by run-time re-naming of the 'Result group' element or may be fixed in a specialised archetype or template. Coding with a terminology, potentially a pre-coordinated term including specimen type, is preferred where possible for the name. Should be coded with LOINC or SNOMED CT. Examples include cardiac ejection fraction or bone density.">
+				>
+				["at0017"] = <
+					text = <"Result value">
+					description = <"Actual value of the result. Most result values will be numerical measurements, but others may be coded concepts or free text.">
+				>
+				["at0018"] = <
+					text = <"Result comment">
+					description = <"May include statements about significant, unexpected or unreliable 
+values, or information about the source of the value where this may be relevant to the interpretation of the result.">
+				>
+				["at0019"] = <
+					text = <"Anatomical site">
+					description = <"Details about the individual anatomical location to which these ‘Result group’ examination results refer, where finer-grained representation of Anatomical location is required.">
+				>
+				["at0019.1"] = <
+					text = <"*! - Dente(en)">
+					description = <"**Details about the individual anatomical location to which these ‘Result group’ examination results refer, where finer-grained representation of Anatomical location is required.(en)(en)">
+				>
+				["at0020"] = <
+					text = <"Radiological diagnosis">
+					description = <"Single word, phrase or brief description representing the 'Conclusion'. Coding with a terminology is preferred, where possible.">
+				>
+				["at0021"] = <
+					text = <"Conclusion">
+					description = <"Concise and clinically contextualised narrative interpretation of the imaging examination findings.">
+				>
+				["at0022"] = <
+					text = <"Examination result representation">
+					description = <"Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they must be semantically equivalent.">
+				>
+				["at0023"] = <
+					text = <"Examination comment">
+					description = <"Additional narrative about the examination not captured in other fields. For example, recommendations for future examinations; a comment on appropriateness of the examination or on quality of images, if separate to findings; or a note that the film was given to the patient.">
+				>
+				["at0024"] = <
+					text = <"DateTime result issued">
+					description = <"The date and/or time that the result was issued for the recorded 'Examination result status'.">
+				>
+				["at0025"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0026"] = <
+					text = <"Receiving imaging service">
+					description = <"Demographic details about the receiving imaging service performing the imaging test.">
+				>
+				["at0027"] = <
+					text = <"Examination request details">
+					description = <"Details concerning a single examination requested. Note: Usually there is one examination request for each result, however in some circumstances multiple examination requests may be represented using a single Imaging examination result archetype.">
+				>
+				["at0028"] = <
+					text = <"Requester order identifier">
+					description = <"The local identifier assigned to the order by the order requester. Equivalent to the HL7 Placer Order Identifier.">
+				>
+				["at0029"] = <
+					text = <"Examination requested name">
+					description = <"Identification of imaging examination or procedure requested, where the examination requested differs from the examination actually performed.">
+				>
+				["at0030"] = <
+					text = <"Requester">
+					description = <"Details about the clinician or organisation requesting the imaging examination.">
+				>
+				["at0031"] = <
+					text = <"Receiver order identifier">
+					description = <"The local identifier assigned to the examination order by the order filler, usually by the Radiology Information System (RIS). Usually equivalent to the HL7 Filler Order Number.">
+				>
+				["at0032"] = <
+					text = <"DICOM study identifier">
+					description = <"Unique identifier of this study allocated by the imaging service.">
+				>
+				["at0033"] = <
+					text = <"Report identifier">
+					description = <"The local identifier given to the imaging examination report.">
+				>
+				["at0034"] = <
+					text = <"Image details">
+					description = <"Images referred to, or provided, to assist clinical understanding of the examination. If attached image is in DICOM format, all the fields below should be populated so the values are available to software that does not process DICOM images.">
+				>
+				["at0035"] = <
+					text = <"Image identifier">
+					description = <"Unique identifier of this image allocated by the imaging service (often the DICOM image instance UID).">
+				>
+				["at0036"] = <
+					text = <"DICOM series identifier">
+					description = <"Unique identifier of this series allocated by the imaging service.">
+				>
+				["at0037"] = <
+					text = <"View">
+					description = <"The name of the imaging view e.g Lateral or Antero-posterior (AP). Coding using a terminology is desirable, where possible.">
+				>
+				["at0038"] = <
+					text = <"Position">
+					description = <"Description of the subject of care's positon when the image was performed.">
+				>
+				["at0039"] = <
+					text = <"Image DateTime">
+					description = <"Specific date/time the imaging examination was performed.">
+				>
+				["at0040"] = <
+					text = <"Image">
+					description = <"An attached or referenced image of a current view.">
+				>
+				["at0041"] = <
+					text = <"Examination procedure">
+					description = <"Additional structured details of imaging examination methodology followed. For example, structured details about the examination technique, prepraration or contrast medium used.">
+				>
+				["at0042"] = <
+					text = <"Compared image details">
+					description = <"Details of previous images used for comparison.">
+				>
+			>
+		>
+		["pt-br"] = <
+			items = <
+				["at0000"] = <
+					description = <"Registrar a interpretação de exame de imagem, ou série de exames realizados.">
+					text = <"Resultado de exame de imagem">
+					comment = <"Trabalho da disciplina de openEHR (exercício prático 3). Neste caso, trata-se de uma especialização de arquétipo existente para contemplar especificidades de exame de radiografia panorâmica.">
+				>
+				["at0000.1"] = <
+					comment = <"Esta especialização NÃO foi realizada por um profissional em saúde, nem contou com a revisão de um profissional pertinente. Este trabalho é apenas o resultado de um exercício prático. Em consequência, não é razoável considerá-lo relevante sem uma exaustiva revisão e consideração por quem está, de fato, habilitado para tal.">
+					text = <"Exame de radiografia panorâmica">
+					description = <"Registrar a interpretação de exame de radiografia panorâmica.">
+				>
+				["at0001"] = <
+					text = <"Série de eventos">
+					description = <"*@ internal @(en)">
+				>
+				["at0002"] = <
+					text = <"Qualquer evento">
+					description = <"*Any event.(en)">
+				>
+				["at0003"] = <
+					text = <"*Tree(en)">
+					description = <"*@ internal @(en)">
+				>
+				["at0004"] = <
+					text = <"Nome do resultado do exame">
+					description = <"Identificação do exame ou procedimento realizado, neste caso, radiografia panorâmica (LOINC 43787-1).">
+				>
+				["at0004.1"] = <
+					text = <"Radiografia panorâmica">
+					description = <"Identificação do exame ou procedimento realizado, neste caso, radiografia panorâmica (LOINC 43787-1).">
+				>
+				["at0005"] = <
+					text = <"Modalidade">
+					description = <"O método empregado, neste caso, Raio-X.">
+				>
+				["at0005.1"] = <
+					text = <"Modalidade">
+					description = <"O método empregado, neste caso, Raio-X.">
+				>
+				["at0006"] = <
+					text = <"Local do exame">
+					description = <"*Details of the anatomical site of imaging examination, including laterality, if all individual findings and results are related to the same anatomical location. If the anatomical site is sufficiently specified with a code in the Examination test name, then this additional data is not required. Finer-grained multiple anatomical sites may be represented per ‘Result group’.(en)">
+				>
+				["at0006.1"] = <
+					text = <"Raio X da mandíbula">
+					description = <"*Details of the anatomical site of imaging examination, including laterality, if all individual findings and results are related to the same anatomical location. If the anatomical site is sufficiently specified with a code in the Examination test name, then this additional data is not required. Finer-grained multiple anatomical sites may be represented per ‘Result group’.(en)">
+				>
+				["at0007"] = <
+					text = <"Status geral do resultado">
+					description = <"O status do resultado do exame como um todo.">
+				>
+				["at0008"] = <
+					text = <"Descobertas">
+					description = <"Narrativa das descobertas, inclusive por comparações.">
+				>
+				["at0009"] = <
+					text = <"Registrado">
+					description = <"Ainda sem resultado disponível.">
+				>
+				["at0010"] = <
+					text = <"Provisório">
+					description = <"Esse é um resultado inicial ou provisório: dados podem estar incompletos ou verificação não foi realizada.">
+				>
+				["at0011"] = <
+					text = <"Final">
+					description = <"O resultado está concluído e verificado pelo radiologista responsável.">
+				>
+				["at0012"] = <
+					text = <"Modificado">
+					description = <"Após finalizado, o resultado foi modificado, e está completo e verificado pelo radiologista.">
+				>
+				["at0013"] = <
+					text = <"Cancelado">
+					description = <"O resultado não está disponível porque o exame não foi iniciado ou concluído.">
+				>
+				["at0014"] = <
+					text = <"Informação clínica disponível">
+					description = <"*Description of clinical information available at the time of interpretation of results, and which may a link to the original clinical information provided in the examination request.(en)">
+				>
+				["at0015"] = <
+					text = <"Grupo de resultados">
+					description = <"Um grupo de resultados estruturados. Resultados podem ser agrupados anatomical location or by some other name or code to describe what binds all the results together. If a name or code is used, it is provided by run-time re-naming of the 'Result group' element or may be fixed in a specialised archetype or template. Coding with a terminology, potentially a pre-coordinated term including specimen type, is preferred where possible for the name. Should be coded with LOINC or SNOMED CT.(en)">
+				>
+				["at0016"] = <
+					text = <"Resultado">
+					description = <"*Specific detailed result, including both the value of the result item and additional information that may be useful for clinical interpretation. Results include whatever specific data items imaging services report as part of the clinical service; it may include measurements. These are often referred to as 'Structured Findings'. The result is identified by run-time re-naming of the 'Result group' element or may be fixed in a specialised archetype or template. Coding with a terminology, potentially a pre-coordinated term including specimen type, is preferred where possible for the name. Should be coded with LOINC or SNOMED CT. Examples include cardiac ejection fraction or bone density.(en)">
+				>
+				["at0017"] = <
+					text = <"Valor do resultado">
+					description = <"*Actual value of the result. Most result values will be numerical measurements, but others may be coded concepts or free text.(en)">
+				>
+				["at0018"] = <
+					text = <"Comentário do resultado">
+					description = <"*May include statements about significant, unexpected or unreliable 
+values, or information about the source of the value where this may be relevant to the interpretation of the result.(en)">
+				>
+				["at0019"] = <
+					text = <"Dente">
+					description = <"*Details about the individual anatomical location to which these ‘Result group’ examination results refer, where finer-grained representation of Anatomical location is required.(en)">
+				>
+				["at0019.1"] = <
+					text = <"Identificação de Dente">
+					description = <"Identificação dos dentes sobre os quais o resultado se aplica.">
+				>
+				["at0020"] = <
+					text = <"Diagnóstico radiológico">
+					description = <"*Single word, phrase or brief description representing the 'Conclusion'. Coding with a terminology is preferred, where possible.(en)">
+				>
+				["at0021"] = <
+					text = <"Conclusão">
+					description = <"*Concise and clinically contextualised narrative interpretation of the imaging examination findings.(en)">
+				>
+				["at0022"] = <
+					text = <"Formato do resultado do exame">
+					description = <"*Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they must be semantically equivalent.(en)">
+				>
+				["at0023"] = <
+					text = <"Comentário">
+					description = <"*Additional narrative about the examination not captured in other fields. For example, recommendations for future examinations; a comment on appropriateness of the examination or on quality of images, if separate to findings; or a note that the film was given to the patient.(en)">
+				>
+				["at0024"] = <
+					text = <"Data da emissão do resultado">
+					description = <"*The date and/or time that the result was issued for the recorded 'Examination result status'.(en)">
+				>
+				["at0025"] = <
+					text = <"*Tree(en)">
+					description = <"*@ internal @(en)">
+				>
+				["at0026"] = <
+					text = <"Serviço de exame de radiografia">
+					description = <"*Demographic details about the receiving imaging service performing the imaging test.(en)">
+				>
+				["at0027"] = <
+					text = <"Detalhes do requisitante do exame">
+					description = <"*Details concerning a single examination requested. Note: Usually there is one examination request for each result, however in some circumstances multiple examination requests may be represented using a single Imaging examination result archetype.(en)">
+				>
+				["at0028"] = <
+					text = <"Identificador da requisição do exame">
+					description = <"*The local identifier assigned to the order by the order requester. Equivalent to the HL7 Placer Order Identifier.(en)">
+				>
+				["at0029"] = <
+					text = <"Nome do exame requerido">
+					description = <"*Identification of imaging examination or procedure requested, where the examination requested differs from the examination actually performed.(en)">
+				>
+				["at0030"] = <
+					text = <"Requisitante">
+					description = <"*Details about the clinician or organisation requesting the imaging examination.(en)">
+				>
+				["at0031"] = <
+					text = <"Identificador da requisição para o serviço de exame">
+					description = <"*The local identifier assigned to the examination order by the order filler, usually by the Radiology Information System (RIS). Usually equivalent to the HL7 Filler Order Number.(en)">
+				>
+				["at0032"] = <
+					text = <"Identificador DICOM">
+					description = <"*Unique identifier of this study allocated by the imaging service.(en)">
+				>
+				["at0033"] = <
+					text = <"Identificador do relatório do exame">
+					description = <"*The local identifier given to the imaging examination report.(en)">
+				>
+				["at0034"] = <
+					text = <"Detalhes da imagem">
+					description = <"*Images referred to, or provided, to assist clinical understanding of the examination. If attached image is in DICOM format, all the fields below should be populated so the values are available to software that does not process DICOM images.(en)">
+				>
+				["at0035"] = <
+					text = <"Identificador da imagem">
+					description = <"*Unique identifier of this image allocated by the imaging service (often the DICOM image instance UID).(en)">
+				>
+				["at0036"] = <
+					text = <"Identificador único da série de imagens">
+					description = <"*Unique identifier of this series allocated by the imaging service.(en)">
+				>
+				["at0037"] = <
+					text = <"Visão">
+					description = <"*The name of the imaging view e.g Lateral or Antero-posterior (AP). Coding using a terminology is desirable, where possible.(en)">
+				>
+				["at0038"] = <
+					text = <"Posição">
+					description = <"*Description of the subject of care's positon when the image was performed.(en)">
+				>
+				["at0039"] = <
+					text = <"Data do exame">
+					description = <"*Specific date/time the imaging examination was performed.(en)">
+				>
+				["at0040"] = <
+					text = <"Imagem">
+					description = <"*An attached or referenced image of a current view.(en)">
+				>
+				["at0041"] = <
+					text = <"Procedimento de exame">
+					description = <"*Additional structured details of imaging examination methodology followed. For example, structured details about the examination technique, prepraration or contrast medium used.(en)">
+				>
+				["at0042"] = <
+					text = <"Detalhes de imagens comparadas">
+					description = <"Detalhes de imagens anteriores empregadas na comparação.">
+				>
+			>
+		>
+	>
+	constraint_definitions = <
+		["en"] = <
+			items = <
+				["ac0.1"] = <
+					text = <"mandible x-ray">
+					description = <"mandible x-ray for dental measurement">
+				>
+				["ac0.2"] = <
+					text = <"*New constraint(pt-br)">
+					description = <"**(pt-br)">
+				>
+				["ac0.3"] = <
+					text = <"x-ray">
+					description = <"mandible x-ray">
+				>
+			>
+		>
+		["pt-br"] = <
+			items = <
+				["ac0.1"] = <
+					text = <"Radiografia panorâmica">
+					description = <"Radiografia panorâmica">
+				>
+				["ac0.2"] = <
+					text = <"New constraint">
+					description = <"*">
+				>
+				["ac0.3"] = <
+					text = <"Raio X da mandíbula">
+					description = <"Radiografia panorâmica.">
+				>
+			>
+		>
+	>
+	constraint_bindings = <
+		["LOINC"] = <
+			items = <
+				["ac0.1"] = <terminology:LOINC?subset=facial%20bones%20and%20mandible%20x-ray%20for%20dental%20measurement>
+				["ac0.3"] = <terminology:LOINC?subset=Mandible%20X-ray%20for%20dental%20measurement>
+			>
+		>
+	>

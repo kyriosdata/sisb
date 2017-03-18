@@ -1,0 +1,168 @@
+﻿archetype (adl_version=1.4)
+	openEHR-EHR-CLUSTER.identificacao_dente_palmer.v1
+
+concept
+	[at0000]	-- Identificação de dente(s) empregando o Método de Notação Palmer.
+language
+	original_language = <[ISO_639-1::pt]>
+description
+	original_author = <
+		["name"] = <"Fábio Nogueira de Lucena">
+		["organisation"] = <"Universidade Federal de Goiás">
+		["email"] = <"fabio@inf.ufg.br">
+		["date"] = <"2014-05-04">
+	>
+	details = <
+		["pt"] = <
+			language = <[ISO_639-1::pt]>
+			purpose = <"Identificação única de dente ou dentes.">
+			use = <"Identificar unicamente um ou mais dentes. Espera-se o emprego deste arquétipo combinado (incluído) em outro ou template, onde informação sobre os dentes identificados é fornecida.">
+			keywords = <"sistema de numeração dentária", ...>
+			misuse = <"Informação além ou distinta da simples identificação de um ou mais dentes. ">
+			copyright = <"UFG">
+		>
+	>
+	lifecycle_state = <"AuthorDraft">
+	other_contributors = <>
+	other_details = <
+		["references"] = <"Portal http://en.wikipedia.org/wiki/Dental_notation consultado em 04/05/2014.">
+		["current_contact"] = <"fabio@inf.ufg.br">
+		["MD5-CAM-1.0.1"] = <"937523565177AE3EB8D4777C84828461">
+	>
+
+definition
+	CLUSTER[at0000] matches {	-- Identificação de dente(s) empregando o Método de Notação Palmer.
+		items cardinality matches {1..*; ordered} matches {
+			CLUSTER[at0046] occurrences matches {1..*} matches {	-- Identificação
+				items cardinality matches {2..*; unordered} matches {
+					ELEMENT[at0032] matches {	-- Identificador
+						value matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0033, 	-- 1
+									at0034, 	-- 2
+									at0035, 	-- 3
+									at0036, 	-- 4
+									at0037, 	-- 5
+									at0038, 	-- 6
+									at0039, 	-- 7
+									at0040, 	-- 8
+									at0041, 	-- A
+									at0042, 	-- B
+									at0043, 	-- C
+									at0044, 	-- D
+									at0045]	-- E
+								}
+							}
+						}
+					}
+					ELEMENT[at0027] matches {	-- Quadrante
+						value matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0028, 	-- superior esquerdo
+									at0029, 	-- superior direito
+									at0030, 	-- inferior direito
+									at0031]	-- inferior esquerdo
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["pt"] = <
+			items = <
+				["at0000"] = <
+					text = <"Identificação de dente(s) empregando o Método de Notação Palmer.">
+					description = <"Em vários cenários é necessário identificar de forma precisa, sem ambiguidade, um ou mais dentes. Este arquétipo permite esta identificação por meio do Método de Numeração Palmer.">
+				>
+				["at0027"] = <
+					text = <"Quadrante">
+					description = <"*">
+				>
+				["at0028"] = <
+					text = <"superior esquerdo">
+					description = <"*">
+				>
+				["at0029"] = <
+					text = <"superior direito">
+					description = <"*">
+				>
+				["at0030"] = <
+					text = <"inferior direito">
+					description = <"*">
+				>
+				["at0031"] = <
+					text = <"inferior esquerdo">
+					description = <"*">
+				>
+				["at0032"] = <
+					text = <"Identificador">
+					description = <"*">
+				>
+				["at0033"] = <
+					text = <"1">
+					description = <"*">
+				>
+				["at0034"] = <
+					text = <"2">
+					description = <"*">
+				>
+				["at0035"] = <
+					text = <"3">
+					description = <"*">
+				>
+				["at0036"] = <
+					text = <"4">
+					description = <"*">
+				>
+				["at0037"] = <
+					text = <"5">
+					description = <"*">
+				>
+				["at0038"] = <
+					text = <"6">
+					description = <"*">
+				>
+				["at0039"] = <
+					text = <"7">
+					description = <"*">
+				>
+				["at0040"] = <
+					text = <"8">
+					description = <"*">
+				>
+				["at0041"] = <
+					text = <"A">
+					description = <"*">
+				>
+				["at0042"] = <
+					text = <"B">
+					description = <"*">
+				>
+				["at0043"] = <
+					text = <"C">
+					description = <"*">
+				>
+				["at0044"] = <
+					text = <"D">
+					description = <"*">
+				>
+				["at0045"] = <
+					text = <"E">
+					description = <"*">
+				>
+				["at0046"] = <
+					text = <"Identificação">
+					description = <"*">
+				>
+			>
+		>
+	>
