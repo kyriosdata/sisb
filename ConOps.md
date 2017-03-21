@@ -1,5 +1,5 @@
 # Contexto de operação (ConOps)
-Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para fornecer evidências dos serviços oferecidos pelo SISB para satisfazer os objetivos identificados acima.
+Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para esclarecer alguns dos serviços a serem oferecidos pelo SISB.
 
 #### Contexto do sistema
 
