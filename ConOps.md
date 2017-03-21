@@ -3,7 +3,7 @@ Abaixo segue uma visão operacional do SISB na perspectiva dos seus usuários. E
 
 #### Contexto do sistema
 
-![sisb-context](https://cloud.githubusercontent.com/assets/1735792/23717130/617f2376-0411-11e7-95de-35b33e00bc21.png)
+![sisb-context](https://cloud.githubusercontent.com/assets/1735792/24151701/45197af8-0e28-11e7-804c-86e3577045f9.png)
 
 | Ator           |   Descrição  |
 |:--------------:|----------------|
