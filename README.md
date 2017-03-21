@@ -6,7 +6,7 @@ Os principais objetivos dos interessados (_stakeholders_) incluem:
 - Fortalecer a reputação do Estado de Goiás na produção de solução de qualidade para a área da saúde.
 - Posicionar a UFG como parceira relevante para ações na saúde.
 - Produzir uma solução que satisfaz os padrões de interoperabilidade adotados pelo Brasil. 
-- Produzir uma solução que satisfaz as necessidades de informações em saúde bucal no escopo da atenção primária.
+- Produzir uma solução que satisfaz as necessidades de informações em saúde bucal no escopo da atenção primária definidas pelo Brasil.
 
 
 ### Entregáveis
