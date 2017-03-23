@@ -1,5 +1,5 @@
 # SISB
-O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema de informação em saúde voltado para atender necessidades de informação no escopo da saúde bucal. 
+O Sistema de Informação em Saúde Bucal, ou simplesmente SISB, é um sistema de informação em saúde voltado para atender necessidades de informação da atenção primária no escopo da saúde bucal. 
 
 ### Objetivos
 Os principais objetivos dos interessados (_stakeholders_) incluem:
