@@ -25,3 +25,7 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [Openodonto](http://openodonto.org/)
 - [Arquétipos](https://github.com/odonto/datamodel) para odontologia.
 - Outro link com informações similares ([aqui](https://www.openhealthhub.org/t/openodonto-hack-weekend-1/226/7))
+
+### Sistemas similares
+- [Openmolar](http://openmolar.com/)
+- [Smileodonto](http://www.smileodonto.com.br/gco/)
