@@ -11,6 +11,8 @@ O presente texto fornece uma visão operacional do SISB na perspectiva dos seus 
 |Odontólogo      | Profissional de saúde que consulta e gera informação em saúde bucal nos prontuários dos pacientes.     |
 |Barramento SUS| Barramento com o qual o SISB interage, tanto para enviar quanto para receber informações em conformidade com os padrões adotados pelo Brasil. Alguns dos serviços oferecidos pelo Datasus incluem CNS, CNES, Horus, SIGTAP e eSus-AB, no presente.|
 
+***
+![atendimento](https://cloud.githubusercontent.com/assets/1735792/24454929/24b9229e-1464-11e7-8e25-90c4d26992ee.png)
 
 ### Casos de uso
 
