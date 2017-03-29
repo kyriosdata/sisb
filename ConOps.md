@@ -12,11 +12,13 @@ O presente texto fornece uma visão operacional do SISB na perspectiva dos seus 
 |Barramento SUS| Barramento com o qual o SISB interage, tanto para enviar quanto para receber informações em conformidade com os padrões adotados pelo Brasil. Alguns dos serviços oferecidos pelo Datasus incluem CNS, CNES, Horus, SIGTAP e eSus-AB, no presente.|
 
 ***
+
+## Tempo
 O tempo (o momento) em que as informações são capturadas e/ou consultadas é empregado para classificar os requisitos. Boa parte das funções oferecidas pelo SISB, por exemplo, são utilizadas durante a atenção, conforme ilustrada abaixo.
 
 ![atencao-bucal](https://cloud.githubusercontent.com/assets/1735792/24455083/b8611ccc-1464-11e7-9577-15f0b5e8cc3b.png)
 
-### Casos de uso
+## Casos de uso
 
 ![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23718572/c02b3356-0416-11e7-8617-99558f063784.png)
 
