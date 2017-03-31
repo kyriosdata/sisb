@@ -1,5 +1,5 @@
 # Contexto de operação (ConOps)
-O presente texto fornece uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para esclarecer alguns dos serviços a serem oferecidos pelo SISB.
+O presente texto fornece uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para esclarecer alguns dos serviços a serem oferecidos pelo SISB e oferecer orientação para a definição dos requisitos. Em particular, onde aplicável, deve-se observar o conteúdo da ISO 13940, ilustrado no portal [ContSys](https://contsys.org/).
 
 ### Contexto do sistema
 
