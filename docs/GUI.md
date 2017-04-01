@@ -12,5 +12,3 @@ Em particular, o sucesso é de forma significativa impactada pela qualidade dess
 - Ambientação com Selenium e SauceLabs. 
 
 
-### Links relevantes
-- [SauceLabs](https://saucelabs.com/) e [Selenium](http://www.seleniumhq.org/) para testes.
