@@ -21,12 +21,10 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 - [WBS](https://drive.google.com/file/d/0B2KOoPbti6jsQ29xTERvTlF4SGc/view?usp=sharing)
 
-### Trabalhos correlatos
+### Trabalhos e sistemas correlatos
 - [Openodonto](http://openodonto.org/)
 - [Arquétipos](https://github.com/odonto/datamodel) para odontologia.
 - Outro link com informações similares ([aqui](https://www.openhealthhub.org/t/openodonto-hack-weekend-1/226/7))
-
-### Sistemas similares
 - [Opendental](http://www.opendental.com/)
 - [Openmolar](http://openmolar.com/)
 - [Smileodonto](http://www.smileodonto.com.br/gco/)
