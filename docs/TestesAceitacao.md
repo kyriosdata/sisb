@@ -6,3 +6,8 @@ teste é a camada de apresentação.
 ## Metodologia
 - Domínio do Selenium
 - Domínio da ferramenta Gauge
+
+
+### Links relevantes
+- [SauceLabs](https://saucelabs.com/) e [Selenium](http://www.seleniumhq.org/) para testes.
+- [Gauge](http://getgauge.io)
