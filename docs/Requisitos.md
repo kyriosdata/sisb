@@ -1,5 +1,5 @@
 
-### Requisitos de usuário
+# Especificação de Requisitos do SISB
 - Seguir denominações amplamente empregadas no Brasil, quando o que está estabelecido pela ISO 13940:2015 não for considerado adequado. Veja [ContSys](https://contsys.org/) para detalhes.
 - [Openmolar](http://openmolar.com/) serve de inspiração para requisitos. 
 - Suporte para múltiplos idiomas.
