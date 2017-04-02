@@ -5,5 +5,3 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 
 Estamos iniciando esse esforço e os resultados serão registrados aqui, à medida que forem produzidos. 
 
-## Requisitos derivados do Manual de Certificação da SBIS
-Tendo em vista a relevância da certificação de um SIS, satisfazer o que é estabelecido por esse Manual torna-se um objetivo relevante. Em consequência do qual são identificados os seguintes requisitos.
