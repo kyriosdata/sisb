@@ -1,4 +1,6 @@
 
 # Especificação de Requisitos do SISB
 O SISB envolve considerável conjunto de funcionalidades conforme o [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md).
-- Um novo dispositivo (computador) para acesso de usuários do SISB pode ser acrescentado sem necessidade de interromper o sistema.  
+Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia iniciada por necessidades/objetivos dê origem a características ou requisitos de usuário (registrados por meio de estórias de usuários e/ou casos de uso) que, por sua vez, deem origem a requisitos de software.
+
+Estamos iniciando esse esforço e os resultados serão registrados aqui, à medida que forem produzidos. 
