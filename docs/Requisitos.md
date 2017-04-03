@@ -101,16 +101,15 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 
 ### Software e hardware
 - Backup diário
-- iOs, Android e desktop (browser)
+- Cliente disponível para iOs, Android e desktop (browser)
 - Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
-- Acessível de qualquer plataforma (“qualquer”?)
-- Multiplataforma: Windows, Linux, MacOS.
-- Nuvem
-- Acesso via celular
-- Deve ser executado em hardware "convencional" (commodity hardware), que pode ser facilmente adquirido e geralmente de baixo desempenho. Noutras palavras, não exige fornecedor específico de hardware.
+- Funcionalidade pode ser executada em Windows, Linux ou MacOS.
+- Pode ser implantado em "nuvem"
+- Deve ser executado em hardware "convencional" (commodity hardware).
 - Suporte para múltiplos idiomas.
 - O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
 - Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
 - O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica.
+- O SISB deve interagir com os serviços do barramento do SUS: CNS, CNES, SIGTAP, e-SUS AB e Horus.
 
 
