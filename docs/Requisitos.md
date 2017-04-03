@@ -8,54 +8,54 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 
 ### Agendamento
 - Agendamento de consultas
--Agendamento simplificado
--Controle de agendamentos
--Enviar SMS, receber SMS, relatório de enviados/recebidos
--Agendamento por dia
--Pesquisa de satisfação
--Lembrete via email
--Relatórios detalhados e quantitativos de agendamentos
--Disponibilidade
--Controle de retornos
--Mala direta
--Confirmar consulta
--Alerta de retorno (whatsapp)
--Três tipos diferentes de agenda
--Agenda telefônica e de contatos (whatsapp, skype, ..)
+- Agendamento simplificado
+- Controle de agendamentos
+- Enviar SMS, receber SMS, relatório de enviados/recebidos
+- Agendamento por dia
+- Pesquisa de satisfação
+- Lembrete via email
+- Relatórios detalhados e quantitativos de agendamentos
+- Disponibilidade
+- Controle de retornos
+- Mala direta
+- Confirmar consulta
+- Alerta de retorno (whatsapp)
+- Três tipos diferentes de agenda
+- Agenda telefônica e de contatos (whatsapp, skype, ..)
 
-2.2 Financeiro e faturamento
-Gerenciar convênios
-Contas bancárias
-Multas
-Orçamentos
-Configuração de boleto bancário
-Caixa interno
-Relatórios de contratos
-Emissão de boleto e de recibos
-Comissões, NFSe
-Controle de custo
-Auditoria
-Dashboard
-Receitas, despesas
-NFe
-Integração com cielo e pagseguro
-Operadora de plano
-Controle de faturamento de múltiplos convênios
-Faturamente TISS
+### Financeiro e faturamento
+- Gerenciar convênios
+- Contas bancárias
+- Multas
+- Orçamentos
+- Configuração de boleto bancário
+- Caixa interno
+- Relatórios de contratos
+- Emissão de boleto e de recibos
+- Comissões, NFSe
+- Controle de custo
+- Auditoria
+- Dashboard
+- Receitas, despesas
+- NFe
+- Integração com cielo e pagseguro
+- Operadora de plano
+- Controle de faturamento de múltiplos convênios
+- Faturamente TISS
 
-2.3 Fluxo de paciente
-Sala de espera
-Consultório
-Pendências
-Atendimentos
-Aniversariantes
-Botão de pânico
-Importação de paciente
-Plano de indicação
-Filas de atendimento
-Cadastro de paciente com fotos
-Cadastro de paciente
-Controle de retorno
+### Fluxo de paciente
+- Sala de espera
+- Consultório
+- Pendências
+- Atendimentos
+- Aniversariantes
+- Botão de pânico
+- Importação de paciente
+- Plano de indicação
+- Filas de atendimento
+- Cadastro de paciente com fotos
+- Cadastro de paciente
+- Controle de retorno
 
 2.4 Atenção à saúde
 Alertas
