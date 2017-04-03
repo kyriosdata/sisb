@@ -57,60 +57,60 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - Cadastro de paciente
 - Controle de retorno
 
-2.4 Atenção à saúde
-Alertas
-Odontograma gráfico
-Situação bucal
-Prescrição
-Atestado
-Planejamento
-Anamnese clínica e ATM
-Fotografias
-Solicitação de exames
-Solicitação de próteses
-Relatório de procedimentos
-Procedimentos em aberto
-Procedimentos realizados
-Procedimentos cancelados
-Ortodontia
-Anexo de imagens (fotos antes e depois)
-Ficha clínica 
-Histórico clínico
-Medicamentos
-Fórmulas
-CID-10
+### Atenção à saúde
+- Alertas
+- Odontograma gráfico
+- Situação bucal
+- Prescrição
+- Atestado
+- Planejamento
+- Anamnese clínica e ATM
+- Fotografias
+- Solicitação de exames
+- Solicitação de próteses
+- Relatório de procedimentos
+- Procedimentos em aberto
+- Procedimentos realizados
+- Procedimentos cancelados
+- Ortodontia
+- Anexo de imagens (fotos antes e depois)
+- Ficha clínica 
+- Histórico clínico
+- Medicamentos
+- Fórmulas
+- CID-10
 
-2.5 Produtos
-Produtos
-Fornecedores
-Categorias
-Ordem de compra
-Controle de compras
-Requisição de produtos
-Inventário de estoques
+### Produtos
+- Produtos
+- Fornecedores
+- Categorias
+- Ordem de compra
+- Controle de compras
+- Requisição de produtos
+- Inventário de estoques
 
-2.6 Pessoal
-Ranking de dentistas
-Relatório de “todos os dentistas”
-Relatório de remunerações
-Estatística de produtividade
-Comunicação interna
-Cadastro de corpo clínico
-Chat com colaboradores da clínica
-Controle de ponto
+### Pessoal
+- Ranking de dentistas
+- Relatório de “todos os dentistas”
+- Relatório de remunerações
+- Estatística de produtividade
+- Comunicação interna
+- Cadastro de corpo clínico
+- Chat com colaboradores da clínica
+- Controle de ponto
 
-2.7 Software e hardware
-Backup diário
-iOs, Android e desktop (browser)
-Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
-Acessível de qualquer plataforma (“qualquer”?)
-Multiplataforma: Windows, Linux, MacOS.
-Nuvem
-Acesso via celular
-Deve ser executado em hardware "convencional" (commodity hardware), que pode ser facilmente adquirido e geralmente de baixo desempenho. Noutras palavras, não exige fornecedor específico de hardware.
-Suporte para múltiplos idiomas.
-O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
-Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
-O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica.
+### Software e hardware
+- Backup diário
+- iOs, Android e desktop (browser)
+- Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
+- Acessível de qualquer plataforma (“qualquer”?)
+- Multiplataforma: Windows, Linux, MacOS.
+- Nuvem
+- Acesso via celular
+- Deve ser executado em hardware "convencional" (commodity hardware), que pode ser facilmente adquirido e geralmente de baixo desempenho. Noutras palavras, não exige fornecedor específico de hardware.
+- Suporte para múltiplos idiomas.
+- O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
+- Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
+- O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica.
 
 
