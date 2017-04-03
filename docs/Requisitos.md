@@ -111,5 +111,7 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
 - O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica.
 - O SISB deve interagir com os serviços do barramento do SUS: CNS, CNES, SIGTAP, e-SUS AB e Horus.
+- Manutenção corretiva deve ser feita em no máximo 2 dias.
+- Não poderá ficar indisponível por no máximo 2 horas por dia.
 
 
