@@ -7,7 +7,7 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 ## Requisitos preliminares
 
 ### Agendamento
--Agendamento de consultas
+- Agendamento de consultas
 -Agendamento simplificado
 -Controle de agendamentos
 -Enviar SMS, receber SMS, relatório de enviados/recebidos
