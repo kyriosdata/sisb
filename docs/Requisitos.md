@@ -114,5 +114,4 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - Manutenção corretiva deve ser feita em no máximo 2 dias.
 - Não poderá ficar indisponível por no máximo 2 horas por dia.
 - Apresentar bom desempenho.
-
-
+- O SISB deve ser capaz de se manter em operação por um peíodo ininterrupto de 30 dias. 
