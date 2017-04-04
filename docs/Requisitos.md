@@ -113,5 +113,6 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - O SISB deve interagir com os serviços do barramento do SUS: CNS, CNES, SIGTAP, e-SUS AB e Horus.
 - Manutenção corretiva deve ser feita em no máximo 2 dias.
 - Não poderá ficar indisponível por no máximo 2 horas por dia.
+- Apresentar bom desempenho.
 
 
