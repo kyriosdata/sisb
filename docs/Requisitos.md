@@ -118,3 +118,4 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - O cenário típico de uso do SISB é uma instalação que atende 10 usuários. Outros cenários devem contemplar 50, 200, 1.000 e 10.000 usuários.
 - O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 -  O cycle time do SISB deve ser de, no máximo, 2 horas.
+- A facilidade de uso do SISB deve ser uma de suas principais características. De fato, apenas com a autorização do patrocinador do projeto um aspecto de usabilidade deverá ser "prejudicado" em detrimento de outro requisito.
