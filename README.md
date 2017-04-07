@@ -31,4 +31,5 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 
 ### Para fazer
 - Termo de consentimento
+- Serviço de ajuda. Cortana, Siri, Bot para auxiliar no uso do sistema (contemplar estudantes, ...)
 
