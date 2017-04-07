@@ -33,3 +33,4 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - Termo de consentimento
 - Serviço de ajuda. Cortana, Siri, Bot para auxiliar no uso do sistema (contemplar estudantes, ...)
 - Rejane apresentou imagem empregada pela OMS, caderno do ministério da saúde no qual a "boca" é mapeada em uma matriz.
+- PSR. É relevante foi esclarecido que muitos nao possui acesso ao aparelho. Contudo, vamos excluir pela leitura do status quo?
