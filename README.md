@@ -28,3 +28,7 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - [Opendental](http://www.opendental.com/)
 - [Openmolar](http://openmolar.com/)
 - [Smileodonto](http://www.smileodonto.com.br/gco/)
+
+### Para fazer
+- Termo de consentimento
+
