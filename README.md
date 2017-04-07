@@ -35,3 +35,4 @@ Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são pa
 - Rejane apresentou imagem empregada pela OMS, caderno do ministério da saúde no qual a "boca" é mapeada em uma matriz.
 - PSR. É relevante foi esclarecido que muitos nao possui acesso ao aparelho. Contudo, vamos excluir pela leitura do status quo?
 - Exames estão definidos no LOINC? Levantar os exames relevantes e os respectivos códigos LOINC.
+- Interpretacao de exame por imagem. Pagina com perguntas (formulario) que e util para estudantes. O que fazer com esse formulario? Informacao opcional? Modeo clinica, modo ensino? Seria a solucao para contemplar informacao especifica de um dominio?
