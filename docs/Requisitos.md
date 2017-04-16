@@ -68,14 +68,14 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - S4.15 Fórmulas
 - S4.16 Solicitação de próteses
 
-### Produtos
-- Inventário de estoque
-- Produtos
-- Categorias de produtos
-- Fornecedores
-- Ordem de compra
-- Controle de compras
-- Requisição de produtos
+### E5 Estoque
+- E5.1 Inventário de estoque
+- E5.2 Cadastro de produtos
+- E5.3 Categorias de produtos
+- E5.4 Fornecedores
+- E5.5 Ordem de compra
+- E5.6 Controle de compras
+- E5.7 Requisição de produtos
 
 ### Pessoal
 - Cadastro de corpo clínico (inclusive por consultório)
