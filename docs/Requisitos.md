@@ -7,7 +7,6 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 
 ### Agendamento
 - Agendamento de consultas
-- Agendamento simplificado
 - Controle de agendamentos
 - Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
 - Visualização de agendamentos por dia, semana ou mês.
