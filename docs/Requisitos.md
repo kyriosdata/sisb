@@ -21,24 +21,24 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Mala direta
 
 ### Financeiro e faturamento
-- Gerenciar convênios
-- Contas bancárias
-- Multas
-- Orçamentos
-- Configuração de boleto bancário
-- Caixa interno
-- Relatórios de contratos
-- Emissão de boleto e de recibos
-- Comissões, NFSe
-- Controle de custo
-- Auditoria
-- Dashboard
 - Receitas, despesas
+- Orçamentos
 - NFe
-- Integração com cielo e pagseguro
+- Integração com cielo, pagseguro (outro?)
+- Gerenciar convênios
+- Faturamente TISS
+- Emissão de boleto e de recibos
 - Operadora de plano
 - Controle de faturamento de múltiplos convênios
-- Faturamente TISS
+- Dashboard
+- Contas bancárias
+- Caixa interno
+- Controle de custo
+- Auditoria
+- Comissões
+- Relatórios de contratos
+- Multas
+- Configuração de boleto bancário
 
 ### Fluxo de paciente
 - Sala de espera
