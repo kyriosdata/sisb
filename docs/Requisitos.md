@@ -73,13 +73,13 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Solicitação de próteses
 
 ### Produtos
+- Inventário de estoque
 - Produtos
+- Categorias de produtos
 - Fornecedores
-- Categorias
 - Ordem de compra
 - Controle de compras
 - Requisição de produtos
-- Inventário de estoques
 
 ### Pessoal
 - Ranking de dentistas
