@@ -5,23 +5,23 @@ O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/ky
 ## Características
 As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
 
-### C1 Agendamento
-- C1.1 Agendamento de consultas
-- C1.2 Agenda telefônica e de contatos. Incluir endereços de whatsapp e skype, dentre outros.
-- C1.3 Alerta de retorno (via lembrete de email enviado automaticamente ou via whatsapp).
-- C1.4 Controle de retornos
-- C1.5 Confirmar consulta
-- C1.6 Disponibilidade (para agendamento)
-- C1.7 Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
-- C1.8 Pesquisa de satisfação
-- C1.9 Exibir agendas por dia, semana ou mês.
-- C1.10 Relatórios detalhados e quantitativos de agendamentos
-- C1.11 Mala direta
+### A1 Agendamento
+- A1.1 Agendamento de consultas
+- A1.2 Agenda telefônica e de contatos. Incluir endereços de whatsapp e skype, dentre outros.
+- A1.3 Alerta de retorno (via lembrete de email enviado automaticamente ou via whatsapp).
+- A1.4 Controle de retornos
+- A1.5 Confirmar consulta
+- A1.6 Disponibilidade (para agendamento)
+- A1.7 Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
+- A1.8 Pesquisa de satisfação
+- A1.9 Exibir agendas por dia, semana ou mês.
+- A1.10 Relatórios detalhados e quantitativos de agendamentos
+- A1.11 Mala direta
 
-### Financeiro e faturamento
-- Receitas, despesas
-- Orçamentos
-- NFe
+### F2 Financeiro e faturamento
+- F2.1 Receitas, despesas
+- F2.2 Orçamentos
+- F2.3 Emissão de NFe
 - Integração com cielo, pagseguro (outro?)
 - Gerenciar convênios
 - Faturamente TISS
