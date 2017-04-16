@@ -17,7 +17,7 @@ O presente documento deve, onde aplicável, deve-se observar o conteúdo da ISO 
 
 
 ## Tempo
-O tempo (o momento) em que as informações são capturadas e/ou consultadas é empregado para classificar os requisitos. Boa parte das funções oferecidas pelo SISB, por exemplo, são utilizadas durante a atenção, conforme ilustrada abaixo.
+O principal foco de interesse do SISB está em informações capturadas e/ou consultadas durante a atenção propriamente dita, conforme ilustrada abaixo. Outras informações, convém destacar, também são contempladas, como agendamento, faturamento e outras que, em geral, podem ser executadas sem a presença do paciente. 
 
 ![atencao-dente](https://cloud.githubusercontent.com/assets/1735792/25071539/d148d4d4-2290-11e7-823d-208796727a52.png)
 
