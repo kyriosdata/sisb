@@ -6,6 +6,7 @@ O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/ky
 As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
 
 - A1 [Agendamento](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#a1-agendamento)
+- F2 [Financeiro e faturamento](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#f2-financeiro-e-faturamento)
 
 ### A1 Agendamento
 - A1.1 Agendamento de consultas
