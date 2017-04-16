@@ -54,27 +54,23 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Botão de pânico
 
 ### Atenção à saúde
+- CID-10, CID-O
 - Alertas
 - Odontograma gráfico
 - Situação bucal
 - Prescrição
 - Atestado
 - Planejamento
-- Anamnese clínica e ATM
+- Anamnese clínica
 - Fotografias
 - Solicitação de exames
-- Solicitação de próteses
+- Solicitação de encaminhamentos
 - Relatório de procedimentos
-- Procedimentos em aberto
-- Procedimentos realizados
-- Procedimentos cancelados
-- Ortodontia
+- Procedimentos em aberto, realizados e cancelados
 - Anexo de imagens (fotos antes e depois)
-- Ficha clínica 
-- Histórico clínico
 - Medicamentos
 - Fórmulas
-- CID-10
+- Solicitação de próteses
 
 ### Produtos
 - Produtos
