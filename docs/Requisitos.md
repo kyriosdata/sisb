@@ -97,7 +97,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 
 ### Q7 Qualidade
 - Q7.1 Uso exclusivo de software, imagens e outros artefatos todos livres de royalties
-- Q7.2 O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
+- Q7.2 O SISB deve estar em conformidade com o Manual de Certificação da SBIS (NGS2)
 - Q7.3 Cliente disponível para iOs, Android e desktop (browser)
 - Q7.4 Backup diário
 - Q7.5 Deve ser executado em hardware "convencional" (commodity hardware).
