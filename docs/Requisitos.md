@@ -77,14 +77,14 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - E5.6 Controle de compras
 - E5.7 Requisição de produtos
 
-### Pessoal
-- Cadastro de corpo clínico (inclusive por consultório)
-- Estatística de produtividade
-- Comunicação interna (chat com colaboradores da clínica)
-- Controle de ponto
-- Ranking de dentistas
-- Relatório de “todos os dentistas”
-- Relatório de remunerações
+### R6 Recursos humanos
+- R6.1 Cadastro de corpo clínico (inclusive por consultório)
+- R6.2 Estatística de produtividade
+- R6.3 Comunicação interna (chat com colaboradores da clínica)
+- R6.4 Controle de ponto
+- R6.5 Ranking de dentistas
+- R6.6 Relatório de “todos os dentistas”
+- R6.7 Relatório de remunerações
 
 ### Software e hardware
 - Livre de royalties
