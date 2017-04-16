@@ -7,6 +7,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 
 - A1 [Agendamento](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#a1-agendamento)
 - F2 [Financeiro e faturamento](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#f2-financeiro-e-faturamento)
+- P3 [Paciente](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#p3-paciente)
 
 ### A1 Agendamento
 - A1.1 Agendamento de consultas
