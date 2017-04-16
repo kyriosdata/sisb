@@ -10,7 +10,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - P3 [Paciente](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#p3-paciente)
 - S4 [Atenção à saúde](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#s4-atenção-à-saúde)
 - E5 [Estoque](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#e5-estoque)
-- R6 [Recursos humanos](
+- R6 [Recursos humanos](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#r6-recursos-humanos)
 
 ### A1 Agendamento
 - A1.1 Agendamento de consultas
