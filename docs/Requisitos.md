@@ -41,18 +41,17 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Configuração de boleto bancário
 
 ### Fluxo de paciente
-- Sala de espera
-- Consultório
-- Pendências
+- Cadastro de paciente com fotos
 - Atendimentos
+- Gerenciamento de espera de paciente
+- Filas de atendimento
 - Aniversariantes
-- Botão de pânico
 - Importação de paciente
 - Plano de indicação
-- Filas de atendimento
-- Cadastro de paciente com fotos
 - Cadastro de paciente
 - Controle de retorno
+- Pendências
+- Botão de pânico
 
 ### Atenção à saúde
 - Alertas
@@ -95,6 +94,8 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Cadastro de corpo clínico
 - Chat com colaboradores da clínica
 - Controle de ponto
+- Consultório
+
 
 ### Software e hardware
 - Backup diário
