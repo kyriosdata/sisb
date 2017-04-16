@@ -3,15 +3,14 @@
 O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md).
 Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia iniciada por necessidades/objetivos dê origem a características ou requisitos de usuário (registrados por meio de estórias de usuários e/ou casos de uso) que, por sua vez, deem origem a requisitos de software.
 
-
-## Requisitos preliminares
+## Características
 
 ### Agendamento
 - Agendamento de consultas
 - Agendamento simplificado
 - Controle de agendamentos
-- Enviar SMS, receber SMS, relatório de enviados/recebidos
-- Agendamento por dia
+- Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
+- Visualização de agendamentos por dia, semana ou mês.
 - Pesquisa de satisfação
 - Lembrete via email
 - Relatórios detalhados e quantitativos de agendamentos
@@ -20,7 +19,6 @@ Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia in
 - Mala direta
 - Confirmar consulta
 - Alerta de retorno (whatsapp)
-- Três tipos diferentes de agenda
 - Agenda telefônica e de contatos (whatsapp, skype, ..)
 
 ### Financeiro e faturamento
