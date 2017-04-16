@@ -91,15 +91,18 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Relatório de remunerações
 
 ### Software e hardware
-- Backup diário
+- O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
 - Cliente disponível para iOs, Android e desktop (browser)
 - Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
-- Funcionalidade pode ser executada em Windows, Linux ou MacOS.
-- Pode ser implantado em "nuvem"
+- Backup diário
 - Deve ser executado em hardware "convencional" (commodity hardware).
+- Pode ser implantado em "nuvem"
+- Execução pode ser em Windows, Linux ou MacOS.
 - Suporte para múltiplos idiomas.
-- O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
-- Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
+- A facilidade de uso do SISB deve ser uma de suas principais características. De fato, apenas com a autorização do patrocinador do projeto um aspecto de usabilidade deverá ser "prejudicado" em detrimento de outro requisito.
+
+### Qualidade interna
+- A interação de clientes (interface com o usuário) com o SISB e os serviços oferecidos serão projetados em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
 - O SISB deve estar em conformidade com os padrões adotado pelo Brasil para interoperabilidade semântica.
 - O SISB deve interagir com os serviços do barramento do SUS: CNS, CNES, SIGTAP, e-SUS AB e Horus.
 - Manutenção corretiva deve ser feita em no máximo 2 dias.
@@ -109,4 +112,3 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - O cenário típico de uso do SISB é uma instalação que atende 10 usuários. Outros cenários devem contemplar 50, 200, 1.000 e 10.000 usuários.
 - O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 -  O cycle time do SISB deve ser de, no máximo, 2 horas.
-- A facilidade de uso do SISB deve ser uma de suas principais características. De fato, apenas com a autorização do patrocinador do projeto um aspecto de usabilidade deverá ser "prejudicado" em detrimento de outro requisito.
