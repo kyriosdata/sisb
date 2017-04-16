@@ -4,21 +4,21 @@ O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/ky
 Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia iniciada por necessidades/objetivos dê origem a características ou requisitos de usuário (registrados por meio de estórias de usuários e/ou casos de uso) que, por sua vez, deem origem a requisitos de software.
 
 ## Características
+As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
 
 ### Agendamento
 - Agendamento de consultas
-- Controle de agendamentos
-- Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
-- Visualização de agendamentos por dia, semana ou mês.
-- Pesquisa de satisfação
-- Lembrete via email
-- Relatórios detalhados e quantitativos de agendamentos
-- Disponibilidade
-- Controle de retornos
-- Mala direta
-- Confirmar consulta
-- Alerta de retorno (whatsapp)
 - Agenda telefônica e de contatos (whatsapp, skype, ..)
+- Alerta de retorno (whatsapp)
+- Controle de retornos
+- Confirmar consulta
+- Disponibilidade (para agendamento)
+- Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
+- Lembrete via email
+- Pesquisa de satisfação
+- Exibir agendas por dia, semana ou mês.
+- Relatórios detalhados e quantitativos de agendamentos
+- Mala direta
 
 ### Financeiro e faturamento
 - Gerenciar convênios
