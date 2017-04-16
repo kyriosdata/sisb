@@ -10,9 +10,10 @@ O presente documento deve, onde aplicável, deve-se observar o conteúdo da ISO 
 
 | Ator           |   Descrição  |
 |:--------------:|----------------|
-|Administrador   | Responsável pela manutenção do SISB em operação. Alguns serviços permitem ao administrador acompanhar o status da execução do SISB. |
+|Administrador   | Responsável pela manutenção do SISB em operação. Alguns serviços permitem ao administrador acompanhar o status da execução do SISB. Quando o SISB deixa de fornecer os serviços esperados é o administrador o responsável por restabelecer o correto funcionamento. Também é responsável pelo cadastro de usuários autorizados a operar o SISB.|
 |Odontólogo      | Profissional de saúde que consulta e gera informação em saúde bucal nos prontuários dos pacientes.     |
 |Barramento SUS| Barramento com o qual o SISB interage, tanto para enviar quanto para receber informações em conformidade com os padrões adotados pelo Brasil. Alguns dos serviços oferecidos pelo Datasus incluem CNS, CNES, Horus, SIGTAP e eSus-AB, no presente.|
+|Secretária | Responsável por serviços de agendamento, financeiro e outros.|
 
 ***
 
