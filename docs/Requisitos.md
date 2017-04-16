@@ -91,6 +91,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Relatório de remunerações
 
 ### Software e hardware
+- Livre de royalties
 - O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
 - Cliente disponível para iOs, Android e desktop (browser)
 - Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
