@@ -5,7 +5,8 @@ O presente documento deve, onde aplicável, deve-se observar o conteúdo da ISO 
 
 ### Contexto do sistema
 
-![sisb-context](https://cloud.githubusercontent.com/assets/1735792/25071484/686937a2-228f-11e7-9bc3-4f74ab92da2a.png)
+![sisb-context](https://cloud.githubusercontent.com/assets/1735792/25071647/2ff1539c-2293-11e7-9776-55a14a098610.png)
+
 
 
 | Ator           |   Descrição  |
