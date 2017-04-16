@@ -1,24 +1,22 @@
 
 # Especificação de Requisitos do SISB
-O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md).
-Em consequência, acredita-se que, em uma análise preliminar, uma hierarquia iniciada por necessidades/objetivos dê origem a características ou requisitos de usuário (registrados por meio de estórias de usuários e/ou casos de uso) que, por sua vez, deem origem a requisitos de software.
+O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md), que inspira as características desejáveis apresentadas abaixo. Tais características, por sua vez, deverão inspirar requisitos de usuário e/ou requisitos de software. 
 
 ## Características
 As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
 
-### Agendamento
-- Agendamento de consultas
-- Agenda telefônica e de contatos (whatsapp, skype, ..)
-- Alerta de retorno (whatsapp)
-- Controle de retornos
-- Confirmar consulta
-- Disponibilidade (para agendamento)
-- Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
-- Lembrete via email
-- Pesquisa de satisfação
-- Exibir agendas por dia, semana ou mês.
-- Relatórios detalhados e quantitativos de agendamentos
-- Mala direta
+### C1 Agendamento
+- C1.1 Agendamento de consultas
+- C1.2 Agenda telefônica e de contatos. Incluir endereços de whatsapp e skype, dentre outros.
+- C1.3 Alerta de retorno (via lembrete de email enviado automaticamente ou via whatsapp).
+- C1.4 Controle de retornos
+- C1.5 Confirmar consulta
+- C1.6 Disponibilidade (para agendamento)
+- C1.7 Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
+- C1.8 Pesquisa de satisfação
+- C1.9 Exibir agendas por dia, semana ou mês.
+- C1.10 Relatórios detalhados e quantitativos de agendamentos
+- C1.11 Mala direta
 
 ### Financeiro e faturamento
 - Receitas, despesas
