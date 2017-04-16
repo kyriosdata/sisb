@@ -109,6 +109,6 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Não poderá ficar indisponível por no máximo 2 horas por dia.
 - Apresentar bom desempenho.
 - O SISB deve ser capaz de se manter em operação por um peíodo ininterrupto de 30 dias. 
-- O cenário típico de uso do SISB é uma instalação que atende 10 usuários. Outros cenários devem contemplar 50, 200, 1.000 e 10.000 usuários.
+- A instalação padrão deve atender 10 usuários. Outros cenários: 50, 200, 1.000 e 10.000 usuários.
 - O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 -  O cycle time do SISB deve ser de, no máximo, 2 horas.
