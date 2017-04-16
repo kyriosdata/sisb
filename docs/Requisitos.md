@@ -113,6 +113,6 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Q7.15 Não poderá ficar indisponível por no máximo 2 horas por dia.
 - Q7.16 Apresentar bom desempenho.
 - Q7.17 O SISB deve ser capaz de se manter em operação por um peíodo ininterrupto de 30 dias. 
-- Q7.18 A instalação padrão deve atender 10 usuários. Outros cenários: 50, 200, 1.000 e 10.000 usuários.
+- Q7.18 O SISB deve estar apto a atender requisições de 10, 50, 200, 1.000 e 10.000 usuários.
 - Q7.19 O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 - Q7.20 O cycle time do SISB deve ser de, no máximo, 2 horas.
