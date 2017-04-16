@@ -82,16 +82,13 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Requisição de produtos
 
 ### Pessoal
+- Cadastro de corpo clínico (inclusive por consultório)
+- Estatística de produtividade
+- Comunicação interna (chat com colaboradores da clínica)
+- Controle de ponto
 - Ranking de dentistas
 - Relatório de “todos os dentistas”
 - Relatório de remunerações
-- Estatística de produtividade
-- Comunicação interna
-- Cadastro de corpo clínico
-- Chat com colaboradores da clínica
-- Controle de ponto
-- Consultório
-
 
 ### Software e hardware
 - Backup diário
