@@ -5,6 +5,8 @@ O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/ky
 ## Características
 As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
 
+- A1 [Agendamento](https://github.com/kyriosdata/sisb/blob/master/docs/Requisitos.md#a1-agendamento)
+
 ### A1 Agendamento
 - A1.1 Agendamento de consultas
 - A1.2 Agenda telefônica e de contatos. Incluir endereços de whatsapp e skype, dentre outros.
