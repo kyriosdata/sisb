@@ -22,53 +22,51 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - F2.1 Receitas, despesas
 - F2.2 Orçamentos
 - F2.3 Emissão de NFe
-- Integração com cielo, pagseguro (outro?)
-- Gerenciar convênios
-- Faturamente TISS
-- Emissão de boleto e de recibos
-- Operadora de plano
-- Controle de faturamento de múltiplos convênios
-- Dashboard
-- Contas bancárias
-- Caixa interno
-- Controle de custo
-- Auditoria
-- Comissões
-- Relatórios de contratos
-- Multas
-- Configuração de boleto bancário
+- F2.4 Integração com cielo e pagseguro
+- F2.5 Gerenciar convênios
+- F2.6 Faturamente TISS
+- F2.7 Emissão de boleto e de recibos
+- F2.8 Operadora de plano
+- F2.9 Controle de faturamento de múltiplos convênios
+- F2.10 Dashboard
+- F2.11 Contas bancárias
+- F2.12 Caixa interno
+- F2.13 Controle de custo
+- F2.14 Auditoria
+- F2.15 Comissões
+- F2.16 Relatórios de contratos
+- F2.17 Multas
+- F2.18 Configuração de boleto bancário
 
-### Fluxo de paciente
-- Cadastro de paciente com fotos
-- Atendimentos
-- Gerenciamento de espera de paciente
-- Filas de atendimento
-- Aniversariantes
-- Importação de paciente
-- Plano de indicação
-- Cadastro de paciente
-- Controle de retorno
-- Pendências
-- Botão de pânico
+### P3 Paciente
+- P3.1 Cadastro de paciente com fotos
+- P3.2 Atendimentos
+- P3.3 Gerenciamento de espera de paciente
+- P3.4 Filas de atendimento
+- P3.5 Aniversariantes
+- P3.6 Importação de paciente
+- P3.7 Plano de indicação
+- P3.8 Controle de retorno
+- P3.9 Pendências
+- P3.10 Botão de pânico
 
-### Atenção à saúde
-- CID-10, CID-O
-- Alertas
-- Odontograma gráfico
-- Situação bucal
-- Prescrição
-- Atestado
-- Planejamento
-- Anamnese clínica
-- Fotografias
-- Solicitação de exames
-- Solicitação de encaminhamentos
-- Relatório de procedimentos
-- Procedimentos em aberto, realizados e cancelados
-- Anexo de imagens (fotos antes e depois)
-- Medicamentos
-- Fórmulas
-- Solicitação de próteses
+### S4 Atenção à saúde
+- S4.1 CID-10, CID-O
+- S4.2 Alertas
+- S4.3 Odontograma gráfico
+- S4.4 Situação bucal
+- S4.5 Prescrição
+- S4.6 Atestado
+- S4.7 Planejamento
+- S4.8 Anamnese clínica
+- S4.9 Fotografias (anexo de imagens)
+- S4.10 Solicitação de exames
+- S4.11 Solicitação de encaminhamentos
+- S4.12 Relatório de procedimentos
+- S4.13 Procedimentos em aberto, realizados e cancelados
+- S4.14 Medicamentos
+- S4.15 Fórmulas
+- S4.16 Solicitação de próteses
 
 ### Produtos
 - Inventário de estoque
