@@ -56,6 +56,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - P3.8 Controle de retorno
 - P3.9 Pendências
 - P3.10 Botão de pânico
+- P3.11 Acesso à agenda (on-line)
 
 ### S4 Atenção à saúde
 - S4.1 CID-10, CID-O
@@ -93,16 +94,15 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - R6.6 Relatório de “todos os dentistas”
 - R6.7 Relatório de remunerações
 
-### Software e hardware
-- Livre de royalties
-- O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
-- Cliente disponível para iOs, Android e desktop (browser)
-- Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo
-- Backup diário
-- Deve ser executado em hardware "convencional" (commodity hardware).
-- Pode ser implantado em "nuvem"
-- Execução pode ser em Windows, Linux ou MacOS.
-- Suporte para múltiplos idiomas.
+### Q7 Qualidade
+- Q7.1 Uso exclusivo de software, imagens e outros artefatos todos livres de royalties
+- Q7.2 O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
+- Q7.3 Cliente disponível para iOs, Android e desktop (browser)
+- Q7.4 Backup diário
+- Q7.5 Deve ser executado em hardware "convencional" (commodity hardware).
+- Q7.6 Pode ser implantado em "nuvem"
+- Q7.7 Execução pode ser em Windows, Linux ou MacOS.
+- Q7.8 Suporte para múltiplos idiomas ([internacionalização](https://formatjs.io/)).
 - A facilidade de uso do SISB deve ser uma de suas principais características. De fato, apenas com a autorização do patrocinador do projeto um aspecto de usabilidade deverá ser "prejudicado" em detrimento de outro requisito.
 - Importação/exportação de dados geridos pelos SISB com base em arquétipos a serem disponibilizados publicamente. Isso assegura possibilidade de extrair as informações contidas no SISB, como a possibilidade incorporar informações mantidas em outras bases.
 
