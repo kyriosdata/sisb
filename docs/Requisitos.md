@@ -104,6 +104,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Execução pode ser em Windows, Linux ou MacOS.
 - Suporte para múltiplos idiomas.
 - A facilidade de uso do SISB deve ser uma de suas principais características. De fato, apenas com a autorização do patrocinador do projeto um aspecto de usabilidade deverá ser "prejudicado" em detrimento de outro requisito.
+- Importação/exportação de dados geridos pelos SISB com base em arquétipos a serem disponibilizados publicamente. Isso assegura possibilidade de extrair as informações contidas no SISB, como a possibilidade incorporar informações mantidas em outras bases.
 
 ### Qualidade interna
 - A interação de clientes (interface com o usuário) com o SISB e os serviços oferecidos serão projetados em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
