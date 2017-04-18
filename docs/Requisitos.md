@@ -20,7 +20,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - A1.4 Controle de retornos
 - A1.5 Confirmar consulta
 - A1.6 Disponibilidade (para agendamento)
-- A1.7 Enviar SMS, receber SMS e produzir relatório de enviados/recebidos
+- A1.7 Enviar/receber SMS/email/notificação, e produzir relatório de enviados/recebidos
 - A1.8 Pesquisa de satisfação
 - A1.9 Exibir agendas por dia, semana ou mês.
 - A1.10 Relatórios detalhados e quantitativos de agendamentos
