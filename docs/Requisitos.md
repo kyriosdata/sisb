@@ -103,7 +103,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Q7.5 Deve ser executado em hardware "convencional" (commodity hardware).
 - Q7.6 Pode ser implantado em "nuvem"
 - Q7.7 Execução pode ser em Windows, Linux ou MacOS.
-- Q7.8 O SISB deve oferecer mecanismos para facilitar o seu uso por mais de uma língua ou cultura. Especificamente: estar preparado para internacionalização e localização (veja definições [aqui](https://www.w3.org/International/questions/qa-i18n)). Suporte para múltiplos idiomas ([internacionalização](https://formatjs.io/)).
+- Q7.8 O SISB deve oferecer mecanismos para facilitar o seu uso por mais de uma língua ou cultura. Especificamente: estar preparado para internacionalização e localização (veja definições [aqui](https://www.w3.org/International/questions/qa-i18n)). 
 - Q7.9 O SISB deve ser "fácil de usar e aprender".
 - Q7.10 Importação/exportação de dados geridos pelos SISB com base em arquétipos a serem disponibilizados publicamente. Isso assegura possibilidade de extrair as informações contidas no SISB, como a possibilidade incorporar informações mantidas em outras bases.
 - Q7.11 A interação de clientes (interface com o usuário) com o SISB e os serviços oferecidos serão projetados em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/). 
