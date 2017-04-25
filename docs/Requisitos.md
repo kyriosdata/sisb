@@ -116,3 +116,4 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Q7.18 O SISB deve estar apto a atender requisições de 10, 50, 100, 1.000 e 10.000 odontólogos.
 - Q7.19 O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 - Q7.20 O cycle time do SISB deve ser de, no máximo, 2 horas.
+- Q7.21 O SISB deve possuir uma vida útil significativa e, portanto, deve oferecer mecanismos para a sua evolução.
