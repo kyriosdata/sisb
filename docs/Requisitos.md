@@ -99,7 +99,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Q7.1 O SISB deve tanto fazer uso quanto produzir artefatos livres (sem pagamento de royalties), seja o módulo software, imagem, som ou outro.
 - Q7.2 O SISB deve estar em conformidade com o Manual de Certificação da SBIS (NGS2) ([aqui](http://sbis.org.br/certificacao/Manual_Certificacao_SBIS-CFM_2016_v4-2.pdf)). Noutras palavras, em processo de certificação, deve lograr resultado positivo.
 - Q7.3 Software por meio do qual os usuários do SISB devem ter acesso aos serviços pertinentes devem estar disponíveis nas plataformas  iOs, Android e desktop (browser). Convém observar que nem todas as funcionalidades estarão disponíveis em todas essas plataformas.
-- Q7.4 Backup diário
+- Q7.4 Backup diário deverá ser utilizado em um período de no máximo 4 horas, a partir do instante inicial de uma paralização (_downtime_) não planejada do SISB ocorrer com consequente perda de dados. 
 - Q7.5 Deve ser executado em hardware "convencional" (commodity hardware).
 - Q7.6 Pode ser implantado em "nuvem"
 - Q7.7 Execução pode ser em Windows, Linux ou MacOS.
