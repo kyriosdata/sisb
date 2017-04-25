@@ -101,7 +101,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - Q7.3 Software por meio do qual os usuários do SISB devem ter acesso aos serviços pertinentes devem estar disponíveis nas plataformas  iOs, Android e desktop (browser). Convém observar que nem todas as funcionalidades estarão disponíveis em todas essas plataformas.
 - Q7.4 Backup diário deverá ser utilizado em um período de no máximo 4 horas, a partir do instante inicial de uma paralização (_downtime_) não planejada do SISB ocorrer com consequente perda de dados. 
 - Q7.5 O SISB deve oferecer suas funcionalidades e atender requisitos de qualidade usando hardware "convencional" (commodity hardware). A configuração de entrada deve ser: (a) CPU: processador Intel ou compatível (4 núcleos); (b) RAM: 8GB DDR4 ou compatível; (c) Disco: SATA 2TB; (d) Placa de Rede PCI de 100 Mpbs.
-- Q7.6 Pode ser implantado em "nuvem"
+- Q7.6 O SISB deve usufruir de serviços oferecidos por "nuvens" públicas com o propósito de aumentar a disponibilidade e até a redução de custos. 
 - Q7.7 Execução pode ser em Windows, Linux ou MacOS.
 - Q7.8 O SISB deve oferecer mecanismos para facilitar o seu uso por mais de uma língua ou cultura. Especificamente: estar preparado para internacionalização e localização (veja definições [aqui](https://www.w3.org/International/questions/qa-i18n)). 
 - Q7.9 O SISB deve ser "fácil de usar e aprender".
