@@ -8,3 +8,5 @@
 - Interpretacao de exame por imagem. Pagina com perguntas (formulario) que e util para estudantes. O que fazer com esse formulario? Informacao opcional? Modeo clinica, modo ensino? Seria a solucao para contemplar informacao especifica de um dominio?
 - Mae pode registrar online informacoes sobre o que a crianca alimenta. Odontopediatria.
 - Modelo de maturidade (CD e IaC) [aqui](https://programmaticponderings.com/2016/11/25/infrastructure-as-code-maturity-model/)
+- Monolito (https://github.com/mariagomez/mga-library-monolith)
+
