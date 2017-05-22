@@ -73,7 +73,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - S4.11 Solicitação de encaminhamentos
 - S4.12 Relatório de procedimentos
 - S4.13 Procedimentos em aberto, realizados e cancelados
-- S4.14 Medicamentos
+- S4.14 Medicamentos. Demanda cadastro prévio a partir de bases como ANVISA e outras.
 - S4.15 Fórmulas
 - S4.16 Solicitação de próteses
 
