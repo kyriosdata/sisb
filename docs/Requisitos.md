@@ -17,7 +17,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - A1.1 Agendamento de consultas
 - A1.2 Agenda telefônica e de contatos. Incluir endereços de whatsapp e skype, dentre outros.
 - A1.3 Alerta de retorno (via lembrete de email enviado automaticamente ou via whatsapp).
-- A1.4 Controle de retornos
+- A1.4 Controle de retornos. Oferece serviços para assegurar o retorno de paciente, por exemplo, informar quais os retornos esperados para um determinado dia?
 - A1.5 Confirmar consulta
 - A1.6 Disponibilidade (para agendamento)
 - A1.7 Enviar/receber SMS/email/notificação, e produzir relatório de enviados/recebidos
