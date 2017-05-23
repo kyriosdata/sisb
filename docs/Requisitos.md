@@ -21,7 +21,7 @@ As características desejáveis seguem abaixo agrupadas por "tópicos" relevante
 - A1.5 Confirmar consulta
 - A1.6 Disponibilidade (para agendamento)
 - A1.7 Enviar/receber SMS/email/notificação, e produzir relatório de enviados/recebidos
-- A1.8 Pesquisa de satisfação
+- A1.8 Pesquisa de satisfação. Dada uma pesquisa cadastrada, para determinada data, no período em questão o sistema disponibilizar página na web onde respostas poderão ser coletadas e, na sequência, os resultados compilados em um arquivo.
 - A1.9 Exibir agendas por dia, semana ou mês.
 - A1.10 Relatórios detalhados e quantitativos de agendamentos
 - A1.11 Mala direta
