@@ -1,5 +1,5 @@
 # SISB
-![](docs/logo/logo-642x380.png)
+![](docs/logo/logo-642x380.png =107x63)
 O Sistema de Informação em Saúde Bucal, ou simplesmente eSaudeBucal, é um sistema de informação em saúde voltado para atender necessidades de informação da atenção primária no escopo da saúde bucal. 
 
 ### Objetivos
