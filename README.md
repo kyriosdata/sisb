@@ -9,10 +9,5 @@ O eSaudeBucal é um sistema de informação em saúde que se concentra nas neces
 ### Realização
 Este projeto é fruto de um esforço conjunto da Secretaria Estadual de Saúde do Estado de Goiás (SES-GO) e da Universidade Federal de Goiás (UFG). 
 
-<div>
-    <div> Left </div>
-    <div> Right </div>
-</div>
-
 <div><img src="info/logo/ufg.png" height="107"></div>
 <div><img src="info/logo/ses-go.png" height="107"></div>
