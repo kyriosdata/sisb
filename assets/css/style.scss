@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 
-p {
-	font-size: 200%;
+h1 {
+	color: transparent;
+}
+
+header.p {
+	font-size: 150%;
 	color: green;
 }
 
