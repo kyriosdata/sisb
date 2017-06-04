@@ -1,6 +1,11 @@
 @import "{{ site.theme }}";
 
-h1 { color: blue; }
+h1 { color: transparent; }
+
+h1:after {
+	content: "eSaúdeBucal";
+	color: blue;
+}
 
 p {
 	color: red;
