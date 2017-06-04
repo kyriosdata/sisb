@@ -5,3 +5,6 @@ O eSaudeBucal é um sistema de informação em saúde que se concentra nas neces
 ### Objetivos
 - Produzir uma solução que satisfaz padrões de interoperabilidade adotados pelo Brasil e aderente à Política Goiana de Informação e Informática em Saúde. 
 - Fortalecer no Estado de Goiás a produção de software de qualidade para a área da saúde.
+
+### Realização
+Este projeto é fruto de um esforço conjunto da Secretaria Estadual de Saúde do Estado de Goiás (SES-GO) e da Universidade Federal de Goiás (UFG). 
