@@ -3,12 +3,8 @@
 O eSaudeBucal é um sistema de informação em saúde que se concentra nas necessidades de informação da atenção primária no escopo da saúde bucal.
 
 ### Objetivos
-Os principais objetivos dos interessados (_stakeholders_) incluem:
-- Fortalecer a reputação do Estado de Goiás na produção de solução de qualidade para a área da saúde.
-- Posicionar a UFG como parceira relevante para ações na saúde.
-- Produzir uma solução que satisfaz os padrões de interoperabilidade adotados pelo Brasil. 
-- Produzir uma solução que satisfaz as necessidades de informações em saúde bucal no escopo da atenção primária definidas pelo Brasil.
-
+- Produzir uma solução que satisfaz padrões de interoperabilidade adotados pelo Brasil e aderente à Política Goiana de Informação e Informática em Saúde. 
+- Fortalecer no Estado de Goiás a produção de software de qualidade para a área da saúde.
 
 ### Entregáveis
 Conforme o [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) estão previstos os seguintes entregáveis:
