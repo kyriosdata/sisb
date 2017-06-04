@@ -1,5 +1,9 @@
 @import "{{ site.theme }}";
 
+body {
+	background-coloer: green;
+}
+
 h1 { color: transparent; }
 
 h1:after {
