@@ -9,4 +9,5 @@
 - Mae pode registrar online informacoes sobre o que a crianca alimenta. Odontopediatria.
 - Modelo de maturidade (CD e IaC) [aqui](https://programmaticponderings.com/2016/11/25/infrastructure-as-code-maturity-model/)
 - Monolito (https://github.com/mariagomez/mga-library-monolith)
+- [Cloudcraft](https://cloudcraft.co/) para ilustrar a organização da infraestrutura.
 
