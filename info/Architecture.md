@@ -1,4 +1,5 @@
 ## Technology stack
+- [Como o github é rápido?](https://github.com/blog/530-how-we-made-github-fast)
 - Localização e internacionalização ([ferramenta](https://formatjs.io/)).
 - Comunicação (email, sms, notificações)
   - Notification server (por meio de serviço próprio): (a) [AeroGear](https://aerogear.org/); (b) [Pushd](https://github.com/rs/pushd).
