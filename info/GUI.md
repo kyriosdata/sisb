@@ -14,5 +14,6 @@ Em particular, o sucesso é de forma significativa impactada pela qualidade dess
 ### Links
 - [Exemplos de EHR ilustração](https://www.ehrscape.com/phr.html)
 - [Browse terminology](https://www.ehrscape.com/terminology-demo.html)
+- Proposta de apresentação de prontuário [aqui](https://www.ehrscape.com/flip/index.html)
 
 
