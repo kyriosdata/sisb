@@ -11,4 +11,7 @@ Em particular, o sucesso é de forma significativa impactada pela qualidade dess
 ### Metodologia
 - Ambientação com Selenium e SauceLabs. 
 
+### Links
+- [Exemplos de EHR ilustração](https://www.ehrscape.com/phr.html)
+
 
