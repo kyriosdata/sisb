@@ -16,5 +16,7 @@ Em particular, o sucesso é de forma significativa impactada pela qualidade dess
 - [Browse terminology](https://www.ehrscape.com/terminology-demo.html)
 - Proposta de apresentação de prontuário [aqui](https://www.ehrscape.com/flip/index.html)
 - Material [icons](https://material.io/icons/)
+- Awesome [icons](http://fontawesome.io/)
+- Bootstrap [icons](https://glyphicons.bootstrapcheatsheets.com/)
 
 
