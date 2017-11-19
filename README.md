@@ -1,4 +1,4 @@
-<img src="info/logo/logo-642x380.png" height="107">
+<img src="info/logo/logo.jpg" height="107">
 
 O eSaudeBucal é um sistema de informação em saúde que se concentra nas necessidades de informação da atenção primária no escopo da saúde bucal.
 
