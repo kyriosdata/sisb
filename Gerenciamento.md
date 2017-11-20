@@ -1,5 +1,6 @@
 ### Segurança
 - [SafeBreach](https://safebreach.com/)
+- [AttackIQ](https://www.attackiq.com/)
 
 ### Tarefas em andamento
 - Identificação das informações (e arquétipos)
