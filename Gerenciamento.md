@@ -1,6 +1,7 @@
 ### Segurança
 - Penetration testing - [Metasploit](https://www.metasploit.com/)
 - [Chaos automation](https://medium.com/netflix-techblog/chap-chaos-automation-platform-53e6d528371f)
+- [Failure injection test](https://medium.com/netflix-techblog/fit-failure-injection-testing-35d8e2a9bb2)
 - [Gremlin chaos](https://www.gremlin.com/)
 - [Ava protection people](https://www.avasecure.com/)
 - [SafeBreach](https://safebreach.com/)
