@@ -1,3 +1,5 @@
+### Segurança
+- [SafeBreach](https://safebreach.com/)
 
 ### Tarefas em andamento
 - Identificação das informações (e arquétipos)
