@@ -1,5 +1,6 @@
 ### Segurança
-- [Netflix chaos monkey](https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116)
+- [Chaos architecture](https://www.infoq.com/news/2017/11/cockcroft-chaos-architecture) mostra como fazer uso integrado das ferramentas abaixo:
+ - [Netflix chaos monkey](https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116)
 - Penetration testing - [Metasploit](https://www.metasploit.com/)
 - [Chaos automation](https://medium.com/netflix-techblog/chap-chaos-automation-platform-53e6d528371f)
 - [Failure injection test](https://medium.com/netflix-techblog/fit-failure-injection-testing-35d8e2a9bb2)
