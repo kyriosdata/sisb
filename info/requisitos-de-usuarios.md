@@ -2,14 +2,6 @@
 # Requisitos de Usuários - eSaúdeBucal
 Os requisitos de usuário são apresentados abaixo conforme os contextos nos quais foram agrupados.
 
-- A1 [Agendamento](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#a1-agendamento)
-- F2 [Financeiro e faturamento](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#f2-financeiro-e-faturamento)
-- P3 [Paciente](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#p3-paciente)
-- S4 [Atenção à saúde](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#s4-saúde-bucal)
-- E5 [Estoque](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#e5-estoque)
-- R6 [Recursos humanos](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#r6-recursos-humanos)
-- C7 [Comunicação](https://github.com/kyriosdata/sisb/blob/master/docs/requisitos-de-usuarios.md#c7-comunicação)
-
 ### A1 Agendamento
 - A1.1 Gerenciar agendamento de consultas.
 - A1.2 Manter agenda telefônica e de contatos (whatsapp, skype e outros).
