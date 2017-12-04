@@ -23,7 +23,9 @@ Como profissional de saúde é útil orientar os pacientes acerca do que é saú
 
 ---
 #### US004
-Como profissional de saúde eu desejo que o software anexe documentos como por exemplo exames dos pacientes (PDF, DICOM, imagens entre outros). E que esses documentos possam ser acessados quando necessário.  
+Como profissional de saúde eu preciso anexar informações em saúde do paciente que atendo para manter a história de saúde desse paciente. 
+
+* Exames, fotos, ...
 
 ---
 #### US005
@@ -33,13 +35,20 @@ Como profissional de saúde eu desejo que o software consiga trabalhar e retirar
 #### US006
 Como profissional de saúde eu desejo registrar as informações coletadas durante o atendimento.  
 
+Como profissional de saúde, ao preencher a anamnese de um paciente, as informações fornecedidas devem ser utilizadas para derivar automaticamente questões pertinentes e, dessa forma, facilitar a construção de um roteiro consistente.
+
 ---
 #### US007
 Como profissional de saúde eu desejo que através das informações do atendimento o software apresente possíveis diagnósticos e um conjunto de opções de tratamento. Estas opções de tratamento deverão estar sempre atualizadas.  
 
 ---
 #### US008
-Como profissional de saúde eu desejo que o software possa emitir alertas quando o Plano de Tratamento não estiver seguindo a ordem recomendada: 1º Estomatologia, 2º Periodontia, 3º Dentística, 4º Endodontia.  
+
+Como profissional de saúde eu espero que alertas sejam emitidos para reforçar o uso de práticas recomendadas.
+
+* O Plano de Tratamento não estiver seguindo a ordem recomendada: 1º Estomatologia, 2º Periodontia, 3º Dentística, 4º Endodontia.  
+
+* O medicamento prescrito é incompatível com o registro de alergias do paciente.
 
 ---
 #### US009
