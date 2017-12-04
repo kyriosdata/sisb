@@ -17,7 +17,9 @@ Como profissional de saúde eu desejo que a síntese da história de saúde seja
 
 ---
  #### US003
-Como profissional de saúde eu desejo que o software tenha uma seção que a apresente “O que é saúde bucal” para que o profissional de saúde utilize essa apresentação para o paciente entender melhor o que é saúde bucal. Essa apresentação também deverá ter uma abordagem ilustrativa para crianças.  
+Como profissional de saúde é útil orientar os pacientes acerca do que é saúde bucal para que melhores resultados sejam obtidos. 
+
+* A orientação pode ocorrer por meio de uma apresentação (vídeo, slides) que pode ser utilizada inclusive para crianças.
 
 ---
 #### US004
