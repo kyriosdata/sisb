@@ -8,7 +8,7 @@ Conforme o [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE
 Os itens abaixo seguem em ordem crescente de detalhes. Os dois primeiros são para os interessados em geral. A partir do terceiro a documentação é mais técnica (produzida para consumo de engenheiros de software). 
 
 - [Termo de Abertura](https://docs.google.com/document/d/1-7-s9yEcUR5eE9cigPSo0GyrEhAQpxWoK1soz_29M84/edit?usp=sharing) - formaliza o início e considerações gerais sobre o projeto.
-- [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md) - apresenta o SISB na visão externa dos usuários.
+- [ConOps](https://github.com/kyriosdata/sisb/blob/master/info/ConOps.md) - apresenta o SISB na visão externa dos usuários.
 - [Requisitos](https://github.com/kyriosdata/sisb/blob/master/info/Requisitos.md)
 - [WBS](https://drive.mindmup.com/map/0B2KOoPbti6jsQ29xTERvTlF4SGc)
 
