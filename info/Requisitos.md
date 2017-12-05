@@ -1,6 +1,6 @@
 
-# Especificação de Requisitos do SISB
-O SISB envolve várias funcionalidades conforme o [ConOps](https://github.com/kyriosdata/sisb/blob/master/ConOps.md), que inspira as características desejáveis apresentadas abaixo. Tais características, por sua vez, deverão inspirar requisitos de usuário e/ou requisitos de software. 
+# Requisitos
+Abaixo seguem características que estabelecem algum referencial para as [estórias](https://github.com/kyriosdata/sisb/blob/master/info/estorias-usuarios.md) de usuário.
 
 ## Características
 As características desejáveis seguem abaixo agrupadas por "tópicos" relevantes. Os itens de cada tópico seguem em ordem de prioridade.
