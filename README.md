@@ -17,12 +17,6 @@ O eSaúdeBucal é um sistema de informação em saúde bucal no escopo da atenç
 
 > ORIENTAÇÂO: onde aplicável o conteúdo da ISO 13940 deve ser utilizado, conforme ilustrado no portal [ContSys](https://contsys.org/).
 
-### O que possui de especial?
-- Um conjunto sólido dos conceitos em saúde bucal considerados "relevantes" para uma atenção de qualidade.
-- Preparação tanto para enviar quanto para receber informações de outros sistemas (interoperabilidade).
-- A experiência do usuário foi tratada como elemento de grande relevância, desde o primeiro instante.
-- Faz uso das melhores práticas para construção de software.
-
 ### Sistemas correlatos
 - [Openodonto](http://openodonto.org/)
 - [Arquétipos](https://github.com/odonto/datamodel) para odontologia.
