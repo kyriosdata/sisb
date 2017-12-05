@@ -3,6 +3,7 @@
 O eSaúdeBucal é um sistema de informação em saúde bucal no escopo da atenção primária.
 
 ### Objetivos
+- Auxiliar o profissional de saúde em todos os pilares da semiologia da saúde (anamnese, exame físico, solicitação e interpretação de exames).  
 - Produzir uma solução que satisfaz padrões de interoperabilidade adotados pelo Brasil e aderente à Política Goiana de Informação e Informática em Saúde. 
 - Fortalecer no Estado de Goiás a produção de software de qualidade para a área da saúde.
 
