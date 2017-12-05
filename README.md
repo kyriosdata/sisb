@@ -1,11 +1,12 @@
 <img src="logo/logo.png" height="107">
 
-O eSaudeBucal é um sistema de informação em saúde bucal no escopo da atenção primária.
+O eSaúdeBucal é um sistema de informação em saúde bucal no escopo da atenção primária.
 
 ### Objetivos
 - Produzir uma solução que satisfaz padrões de interoperabilidade adotados pelo Brasil e aderente à Política Goiana de Informação e Informática em Saúde. 
 - Fortalecer no Estado de Goiás a produção de software de qualidade para a área da saúde.
 
+### De
 > ORIENTAÇÂO: onde aplicável o conteúdo da ISO 13940 deve ser utilizado, conforme ilustrado no portal [ContSys](https://contsys.org/).
 
 ### O que possui de especial?
