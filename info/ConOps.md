@@ -1,8 +1,6 @@
 # Conceito de operação (ConOps)
 O presente texto fornece uma visão operacional do SISB na perspectiva dos seus usuários. Essa visão é útil para esclarecer alguns dos serviços a serem oferecidos pelo SISB e oferecer orientação para a definição dos [requisitos](https://github.com/kyriosdata/sisb/blob/master/info/Requisitos.md). O presente texto é acompanhado de uma versão na forma de apresentação ([aqui](https://sway.com/ekdw34PzHvT5z5XT)).
 
-> O presente documento deve, onde aplicável, observar o conteúdo da ISO 13940, ilustrado no portal [ContSys] (https://contsys.org/).
-
 ### Contexto do sistema
 
 ![sisb-context](https://cloud.githubusercontent.com/assets/1735792/25071647/2ff1539c-2293-11e7-9776-55a14a098610.png)
