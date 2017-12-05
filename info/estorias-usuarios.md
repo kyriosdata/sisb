@@ -4,7 +4,9 @@ Estórias de Usuários referente à atenção à saúde bucal.
 
 #### US001
 
-Como profissional de saúde eu desejo acesso a uma síntese da história de saúde para obter uma visão geral da saúde do paciente e de questões relevantes. A síntese deve ser um filtro das informações da anamnese, de exames físicos e complementares, da evolução do quadro clínico/tratamento e das informações da última sessão.  
+Como profissional de saúde eu desejo acesso a uma síntese da história de saúde para obter uma visão geral da saúde do paciente e de questões relevantes. 
+
+* A síntese deve ser um filtro das informações da anamnese, de exames físicos e complementares, da evolução do quadro clínico/tratamento e das informações da última sessão.  
 
 * Caso seja um paciente de primeira consulta, a síntese deve conter informações de identificação do paciente e o que motivou ele a procurar um profissional de saúde, se foi por demanda espontânea ou se foi encaminhado por outro especialista. O próprio paciente poderia preencher ou atualizar essas informações.  
 
