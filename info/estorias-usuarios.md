@@ -47,7 +47,7 @@ Como profissional de saúde eu espero que alertas sejam emitidos para reforçar 
 
 ---
 #### US007
-Como profissional de saúde eu presizo atualizar as opções de tratamento sempre que necessário para manter o software atualizados com as opções de tratamento mais atuais. 
+Como profissional de saúde eu preciso atualizar as opções de tratamento sempre que necessário para manter o software atualizados com as opções de tratamento mais atuais. 
 
 ---
 ## Objetivos
