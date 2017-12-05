@@ -1,7 +1,5 @@
 # Estórias de Usuários
 
-Estórias de Usuários referente à atenção à saúde bucal.
-
 #### US001
 
 Como profissional de saúde eu desejo acesso a uma síntese da história de saúde para obter uma visão geral da saúde do paciente e de questões relevantes. 
@@ -48,9 +46,5 @@ Como profissional de saúde eu espero que alertas sejam emitidos para reforçar 
 ---
 #### US007
 Como profissional de saúde eu preciso atualizar as opções de tratamento sempre que necessário para manter o software atualizados com as opções de tratamento mais atuais. 
-
----
-## Objetivos
-O software deve atuar auxiliando o profissional de saúde em todos os pilares da semiologia médica (exemplo: anamnese, exame físico, solicitação e interpretação de exames).  
 
 ---
