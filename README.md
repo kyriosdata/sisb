@@ -1,5 +1,3 @@
-[![asciicast](https://asciinema.org/a/161505.png)](https://asciinema.org/a/161505)
-
 <img src="logo/logo.png" height="107">
 
 O eSaúdeBucal é um sistema de informação em saúde bucal no escopo da atenção primária.
